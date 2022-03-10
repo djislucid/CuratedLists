@@ -1,0 +1,8 @@
+php.ini
+phpMyAdmin
+phpinfo.php
+phpmyadmin
+webdynpro
+index.html
+sap
+web.config
