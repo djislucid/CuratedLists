@@ -1,6 +1,8 @@
 $.ajax()
 .innerHTML
+Database
 GET
+IndexedDB (mozIndexedDB, webkitIndexedDB, msIndexedDB)
 Meteor.call(
 POST
 XMLHttpRequest.open()  
@@ -12,12 +14,21 @@ api_key
 api_secret
 bypassSecurityTrustX
 dangerouslySetInnerHTML
+document.URL
+document.URLUnencoded
+document.baseURI
 document.cookie
+document.documentURI
+document.referrer
 document.write(
 element.srcdoc  
 eval(
 getParameter()
+history.pushState
+history.replaceState
 jQuery.ajax()  
+localStorage
+location
 location  
 location.assign()  
 location.host  
@@ -34,9 +45,11 @@ pathname
 postMessage
 redirectUrl
 send(
+sessionStorage
 setRequestHeader
 url:
 window.hash
 window.localStorage
 window.location
+window.name
 window.sessionStorage
