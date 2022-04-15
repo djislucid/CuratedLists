@@ -10969,6 +10969,7 @@ $vector_ataque[11]="/MSADC/..%255c..%255c..%255c..%255cwinnt/system32/cmd.exe?/c
 .well-known/jwks.json
 .well-known/keybase.txt
 .well-known/ni
+.well-known/oauth-authorization-server
 .well-known/openid-configuration
 .well-known/openorg
 .well-known/posh
@@ -70253,6 +70254,7 @@ appinterfaceappc
 appl
 appl_at
 apple
+apple-app-site-association
 apple/
 apple1
 apple_fixture.php
